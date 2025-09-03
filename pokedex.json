@@ -398,6 +398,24 @@
     "base": {
       "HP": 83,
       "Attack": 80,
+      "Defense": 75,
+      "Sp. Attack": 70,
+      "Sp. Defense": 70,
+      "Speed": 101
+    }
+  },
+  {
+    "id": 18,
+    "name": {
+      "english": "Mega Pidgeot"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base": {
+      "HP": 83,
+      "Attack": 80,
       "Defense": 80,
       "Sp. Attack": 135,
       "Sp. Defense": 80,
