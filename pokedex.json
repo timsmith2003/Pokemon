@@ -5,11 +5,11 @@
       "Grass",
       "Poison"
     ],
-    "HP": 45,
+    "hp": 45,
     "Attack": 49,
     "Defense": 49,
-    "Sp. Attack": 65,
-    "Sp. Defense": 65,
+    "spAttack": 65,
+    "spDefense": 65,
     "Speed": 45
   },
   {
@@ -20,11 +20,11 @@
       "Poison"
     ],
     
-    "HP": 60,
+    "hp": 60,
     "Attack": 62,
     "Defense": 63,
-    "Sp. Attack": 80,
-    "Sp. Defense": 80,
+    "spAttack": 80,
+    "spDefense": 80,
     "Speed": 60
   },
   {
@@ -34,11 +34,11 @@
       "Grass",
       "Poison"
     ],
-    "HP": 80,
+    "hp": 80,
     "Attack": 82,
     "Defense": 83,
-    "Sp. Attack": 100,
-    "Sp. Defense": 100,
+    "spAttack": 100,
+    "spDefense": 100,
     "Speed": 80
   },
   {
@@ -49,11 +49,11 @@
       "Poison"
     ],
     
-    "HP": 80,
+    "hp": 80,
     "Attack": 100,
     "Defense": 123,
-    "Sp. Attack": 122,
-    "Sp. Defense": 120,
+    "spAttack": 122,
+    "spDefense": 120,
     "Speed": 80,
     "Mega" : true
   },
@@ -64,11 +64,11 @@
       "Fire"
     ],
     
-    "HP": 39,
+    "hp": 39,
     "Attack": 52,
     "Defense": 43,
-    "Sp. Attack": 60,
-    "Sp. Defense": 50,
+    "spAttack": 60,
+    "spDefense": 50,
     "Speed": 65
   },
   {
@@ -78,11 +78,11 @@
       "Fire"
     ],
     
-    "HP": 58,
+    "hp": 58,
     "Attack": 64,
     "Defense": 58,
-    "Sp. Attack": 80,
-    "Sp. Defense": 65,
+    "spAttack": 80,
+    "spDefense": 65,
     "Speed": 80
   },
   {
@@ -93,11 +93,11 @@
       "Flying"
     ],
     
-    "HP": 78,
+    "hp": 78,
     "Attack": 84,
     "Defense": 78,
-    "Sp. Attack": 109,
-    "Sp. Defense": 85,
+    "spAttack": 109,
+    "spDefense": 85,
     "Speed": 100
   },
   {
@@ -108,11 +108,11 @@
       "Dragon"
     ],
     
-    "HP": 78,
+    "hp": 78,
     "Attack": 130,
     "Defense": 111,
-    "Sp. Attack": 130,
-    "Sp. Defense": 85,
+    "spAttack": 130,
+    "spDefense": 85,
     "Speed": 100,
     "Mega" : true
   },
@@ -124,11 +124,11 @@
       "Flying"
     ],
     
-    "HP": 78,
+    "hp": 78,
     "Attack": 104,
     "Defense": 78,
-    "Sp. Attack": 159,
-    "Sp. Defense": 115,
+    "spAttack": 159,
+    "spDefense": 115,
     "Speed": 100,
     "Mega" : true
   },
@@ -139,11 +139,11 @@
       "Water"
     ],
     
-    "HP": 44,
+    "hp": 44,
     "Attack": 48,
     "Defense": 65,
-    "Sp. Attack": 50,
-    "Sp. Defense": 64,
+    "spAttack": 50,
+    "spDefense": 64,
     "Speed": 43
   },
   {
@@ -153,11 +153,11 @@
       "Water"
     ],
     
-    "HP": 59,
+    "hp": 59,
     "Attack": 63,
     "Defense": 80,
-    "Sp. Attack": 65,
-    "Sp. Defense": 80,
+    "spAttack": 65,
+    "spDefense": 80,
     "Speed": 58
   },
   {
@@ -167,11 +167,11 @@
       "Water"
     ],
     
-    "HP": 79,
+    "hp": 79,
     "Attack": 83,
     "Defense": 100,
-    "Sp. Attack": 85,
-    "Sp. Defense": 105,
+    "spAttack": 85,
+    "spDefense": 105,
     "Speed": 78
   },
   {
@@ -181,11 +181,11 @@
       "Water"
     ],
     
-    "HP": 79,
+    "hp": 79,
     "Attack": 103,
     "Defense": 120,
-    "Sp. Attack": 135,
-    "Sp. Defense": 115,
+    "spAttack": 135,
+    "spDefense": 115,
     "Speed": 78,
     "Mega" : true
    },
@@ -196,11 +196,11 @@
       "Bug"
     ],
     
-    "HP": 45,
+    "hp": 45,
     "Attack": 30,
     "Defense": 35,
-    "Sp. Attack": 20,
-    "Sp. Defense": 20,
+    "spAttack": 20,
+    "spDefense": 20,
     "Speed": 45
   },
   {
@@ -210,11 +210,11 @@
       "Bug"
     ],
     
-    "HP": 50,
+    "hp": 50,
     "Attack": 20,
     "Defense": 55,
-    "Sp. Attack": 25,
-    "Sp. Defense": 25,
+    "spAttack": 25,
+    "spDefense": 25,
     "Speed": 30
   },
   {
@@ -225,11 +225,11 @@
       "Flying"
     ],
     
-    "HP": 60,
+    "hp": 60,
     "Attack": 45,
     "Defense": 50,
-    "Sp. Attack": 90,
-    "Sp. Defense": 80,
+    "spAttack": 90,
+    "spDefense": 80,
     "Speed": 70
   },
   {
@@ -240,11 +240,11 @@
       "Poison"
     ],
     
-    "HP": 40,
+    "hp": 40,
     "Attack": 35,
     "Defense": 30,
-    "Sp. Attack": 20,
-    "Sp. Defense": 20,
+    "spAttack": 20,
+    "spDefense": 20,
     "Speed": 50
   },
   {
@@ -255,11 +255,11 @@
       "Poison"
     ],
     
-    "HP": 45,
+    "hp": 45,
     "Attack": 25,
     "Defense": 50,
-    "Sp. Attack": 25,
-    "Sp. Defense": 25,
+    "spAttack": 25,
+    "spDefense": 25,
     "Speed": 35
   },
   {
@@ -270,11 +270,11 @@
       "Poison"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 90,
     "Defense": 40,
-    "Sp. Attack": 45,
-    "Sp. Defense": 80,
+    "spAttack": 45,
+    "spDefense": 80,
     "Speed": 75
   },
   {
@@ -285,11 +285,11 @@
       "Poison"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 150,
     "Defense": 40,
-    "Sp. Attack": 15,
-    "Sp. Defense": 80,
+    "spAttack": 15,
+    "spDefense": 80,
     "Speed": 145,
     "Mega" : true
   },
@@ -301,11 +301,11 @@
       "Flying"
     ],
     
-    "HP": 40,
+    "hp": 40,
     "Attack": 45,
     "Defense": 40,
-    "Sp. Attack": 35,
-    "Sp. Defense": 35,
+    "spAttack": 35,
+    "spDefense": 35,
     "Speed": 56
   },
   {
@@ -316,11 +316,11 @@
       "Flying"
     ],
     
-    "HP": 63,
+    "hp": 63,
     "Attack": 60,
     "Defense": 55,
-    "Sp. Attack": 50,
-    "Sp. Defense": 50,
+    "spAttack": 50,
+    "spDefense": 50,
     "Speed": 71
   },
   {
@@ -331,11 +331,11 @@
       "Flying"
     ],
     
-    "HP": 83,
+    "hp": 83,
     "Attack": 80,
     "Defense": 75,
-    "Sp. Attack": 70,
-    "Sp. Defense": 70,
+    "spAttack": 70,
+    "spDefense": 70,
     "Speed": 101
   },
   {
@@ -346,11 +346,11 @@
       "Flying"
     ],
     
-    "HP": 83,
+    "hp": 83,
     "Attack": 80,
     "Defense": 80,
-    "Sp. Attack": 135,
-    "Sp. Defense": 80,
+    "spAttack": 135,
+    "spDefense": 80,
     "Speed": 121,
     "Mega" : true
   },
@@ -361,11 +361,11 @@
       "Normal"
     ],
     
-    "HP": 30,
+    "hp": 30,
     "Attack": 56,
     "Defense": 35,
-    "Sp. Attack": 25,
-    "Sp. Defense": 35,
+    "spAttack": 25,
+    "spDefense": 35,
     "Speed": 72
   },
   {
@@ -375,11 +375,11 @@
       "Normal"
     ],
     
-    "HP": 55,
+    "hp": 55,
     "Attack": 81,
     "Defense": 60,
-    "Sp. Attack": 50,
-    "Sp. Defense": 70,
+    "spAttack": 50,
+    "spDefense": 70,
     "Speed": 97
   },
   {
@@ -390,11 +390,11 @@
       "Flying"
     ],
     
-    "HP": 40,
+    "hp": 40,
     "Attack": 60,
     "Defense": 30,
-    "Sp. Attack": 31,
-    "Sp. Defense": 31,
+    "spAttack": 31,
+    "spDefense": 31,
     "Speed": 70
   },
   {
@@ -405,11 +405,11 @@
       "Flying"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 90,
     "Defense": 65,
-    "Sp. Attack": 61,
-    "Sp. Defense": 61,
+    "spAttack": 61,
+    "spDefense": 61,
     "Speed": 100
   },
   {
@@ -419,11 +419,11 @@
       "Poison"
     ],
     
-    "HP": 35,
+    "hp": 35,
     "Attack": 60,
     "Defense": 44,
-    "Sp. Attack": 40,
-    "Sp. Defense": 54,
+    "spAttack": 40,
+    "spDefense": 54,
     "Speed": 55
   },
   {
@@ -433,11 +433,11 @@
       "Poison"
     ],
     
-    "HP": 60,
+    "hp": 60,
     "Attack": 95,
     "Defense": 69,
-    "Sp. Attack": 65,
-    "Sp. Defense": 79,
+    "spAttack": 65,
+    "spDefense": 79,
     "Speed": 80
   },
   {
@@ -447,11 +447,11 @@
       "Electric"
     ],
     
-    "HP": 35,
+    "hp": 35,
     "Attack": 55,
     "Defense": 40,
-    "Sp. Attack": 50,
-    "Sp. Defense": 50,
+    "spAttack": 50,
+    "spDefense": 50,
     "Speed": 90
   },
   {
@@ -461,11 +461,11 @@
       "Electric"
     ],
     
-    "HP": 60,
+    "hp": 60,
     "Attack": 90,
     "Defense": 55,
-    "Sp. Attack": 90,
-    "Sp. Defense": 80,
+    "spAttack": 90,
+    "spDefense": 80,
     "Speed": 110
   },
   {
@@ -475,11 +475,11 @@
       "Ground"
     ],
     
-    "HP": 50,
+    "hp": 50,
     "Attack": 75,
     "Defense": 85,
-    "Sp. Attack": 20,
-    "Sp. Defense": 30,
+    "spAttack": 20,
+    "spDefense": 30,
     "Speed": 40
   },
   {
@@ -489,11 +489,11 @@
       "Ground"
     ],
     
-    "HP": 75,
+    "hp": 75,
     "Attack": 100,
     "Defense": 110,
-    "Sp. Attack": 45,
-    "Sp. Defense": 55,
+    "spAttack": 45,
+    "spDefense": 55,
     "Speed": 65
   },
   {
@@ -503,11 +503,11 @@
       "Poison"
     ],
     
-    "HP": 55,
+    "hp": 55,
     "Attack": 47,
     "Defense": 52,
-    "Sp. Attack": 40,
-    "Sp. Defense": 40,
+    "spAttack": 40,
+    "spDefense": 40,
     "Speed": 41
   },
   {
@@ -517,11 +517,11 @@
       "Poison"
     ],
     
-    "HP": 70,
+    "hp": 70,
     "Attack": 62,
     "Defense": 67,
-    "Sp. Attack": 55,
-    "Sp. Defense": 55,
+    "spAttack": 55,
+    "spDefense": 55,
     "Speed": 56
   },
   {
@@ -532,11 +532,11 @@
       "Ground"
     ],
     
-    "HP": 90,
+    "hp": 90,
     "Attack": 92,
     "Defense": 87,
-    "Sp. Attack": 75,
-    "Sp. Defense": 85,
+    "spAttack": 75,
+    "spDefense": 85,
     "Speed": 76
   },
   {
@@ -546,11 +546,11 @@
       "Poison"
     ],
     
-    "HP": 46,
+    "hp": 46,
     "Attack": 57,
     "Defense": 40,
-    "Sp. Attack": 40,
-    "Sp. Defense": 40,
+    "spAttack": 40,
+    "spDefense": 40,
     "Speed": 50
   },
   {
@@ -560,11 +560,11 @@
       "Poison"
     ],
     
-    "HP": 61,
+    "hp": 61,
     "Attack": 72,
     "Defense": 57,
-    "Sp. Attack": 55,
-    "Sp. Defense": 55,
+    "spAttack": 55,
+    "spDefense": 55,
     "Speed": 65
   },
   {
@@ -575,11 +575,11 @@
       "Ground"
     ],
     
-    "HP": 81,
+    "hp": 81,
     "Attack": 102,
     "Defense": 77,
-    "Sp. Attack": 85,
-    "Sp. Defense": 75,
+    "spAttack": 85,
+    "spDefense": 75,
     "Speed": 85
   },
   {
@@ -589,11 +589,11 @@
       "Fairy"
     ],
     
-    "HP": 70,
+    "hp": 70,
     "Attack": 45,
     "Defense": 48,
-    "Sp. Attack": 60,
-    "Sp. Defense": 65,
+    "spAttack": 60,
+    "spDefense": 65,
     "Speed": 35
   },
   {
@@ -603,11 +603,11 @@
       "Fairy"
     ],
     
-    "HP": 95,
+    "hp": 95,
     "Attack": 70,
     "Defense": 73,
-    "Sp. Attack": 95,
-    "Sp. Defense": 90,
+    "spAttack": 95,
+    "spDefense": 90,
     "Speed": 60
   },
   {
@@ -617,11 +617,11 @@
       "Fire"
     ],
     
-    "HP": 38,
+    "hp": 38,
     "Attack": 41,
     "Defense": 40,
-    "Sp. Attack": 50,
-    "Sp. Defense": 65,
+    "spAttack": 50,
+    "spDefense": 65,
     "Speed": 65
   },
   {
@@ -631,11 +631,11 @@
       "Fire"
     ],
     
-    "HP": 73,
+    "hp": 73,
     "Attack": 76,
     "Defense": 75,
-    "Sp. Attack": 81,
-    "Sp. Defense": 100,
+    "spAttack": 81,
+    "spDefense": 100,
     "Speed": 100
   },
   {
@@ -646,11 +646,11 @@
       "Fairy"
     ],
     
-    "HP": 115,
+    "hp": 115,
     "Attack": 45,
     "Defense": 20,
-    "Sp. Attack": 45,
-    "Sp. Defense": 25,
+    "spAttack": 45,
+    "spDefense": 25,
     "Speed": 20
   },
   {
@@ -661,11 +661,11 @@
       "Fairy"
     ],
     
-    "HP": 140,
+    "hp": 140,
     "Attack": 70,
     "Defense": 45,
-    "Sp. Attack": 85,
-    "Sp. Defense": 50,
+    "spAttack": 85,
+    "spDefense": 50,
     "Speed": 45
   },
   {
@@ -676,11 +676,11 @@
       "Flying"
     ],
     
-    "HP": 40,
+    "hp": 40,
     "Attack": 45,
     "Defense": 35,
-    "Sp. Attack": 30,
-    "Sp. Defense": 40,
+    "spAttack": 30,
+    "spDefense": 40,
     "Speed": 55
   },
   {
@@ -691,11 +691,11 @@
       "Flying"
     ],
     
-    "HP": 75,
+    "hp": 75,
     "Attack": 80,
     "Defense": 70,
-    "Sp. Attack": 65,
-    "Sp. Defense": 75,
+    "spAttack": 65,
+    "spDefense": 75,
     "Speed": 90
   },
   {
@@ -706,11 +706,11 @@
       "Poison"
     ],
     
-    "HP": 45,
+    "hp": 45,
     "Attack": 50,
     "Defense": 55,
-    "Sp. Attack": 75,
-    "Sp. Defense": 65,
+    "spAttack": 75,
+    "spDefense": 65,
     "Speed": 30
   },
   {
@@ -721,11 +721,11 @@
       "Poison"
     ],
     
-    "HP": 60,
+    "hp": 60,
     "Attack": 65,
     "Defense": 70,
-    "Sp. Attack": 85,
-    "Sp. Defense": 75,
+    "spAttack": 85,
+    "spDefense": 75,
     "Speed": 40
   },
   {
@@ -736,11 +736,11 @@
       "Poison"
     ],
     
-    "HP": 75,
+    "hp": 75,
     "Attack": 80,
     "Defense": 85,
-    "Sp. Attack": 110,
-    "Sp. Defense": 90,
+    "spAttack": 110,
+    "spDefense": 90,
     "Speed": 50
   },
   {
@@ -751,11 +751,11 @@
       "Grass"
     ],
     
-    "HP": 35,
+    "hp": 35,
     "Attack": 70,
     "Defense": 55,
-    "Sp. Attack": 45,
-    "Sp. Defense": 55,
+    "spAttack": 45,
+    "spDefense": 55,
     "Speed": 25
   },
   {
@@ -766,11 +766,11 @@
       "Grass"
     ],
     
-    "HP": 60,
+    "hp": 60,
     "Attack": 95,
     "Defense": 80,
-    "Sp. Attack": 60,
-    "Sp. Defense": 80,
+    "spAttack": 60,
+    "spDefense": 80,
     "Speed": 30
   },
   {
@@ -781,11 +781,11 @@
       "Poison"
     ],
     
-    "HP": 60,
+    "hp": 60,
     "Attack": 55,
     "Defense": 50,
-    "Sp. Attack": 40,
-    "Sp. Defense": 55,
+    "spAttack": 40,
+    "spDefense": 55,
     "Speed": 45
   },
   {
@@ -796,11 +796,11 @@
       "Poison"
     ],
     
-    "HP": 70,
+    "hp": 70,
     "Attack": 65,
     "Defense": 60,
-    "Sp. Attack": 90,
-    "Sp. Defense": 75,
+    "spAttack": 90,
+    "spDefense": 75,
     "Speed": 90
   },
   {
@@ -810,11 +810,11 @@
       "Ground"
     ],
     
-    "HP": 10,
+    "hp": 10,
     "Attack": 55,
     "Defense": 25,
-    "Sp. Attack": 35,
-    "Sp. Defense": 45,
+    "spAttack": 35,
+    "spDefense": 45,
     "Speed": 95
   },
   {
@@ -824,11 +824,11 @@
       "Ground"
     ],
     
-    "HP": 35,
+    "hp": 35,
     "Attack": 100,
     "Defense": 50,
-    "Sp. Attack": 50,
-    "Sp. Defense": 70,
+    "spAttack": 50,
+    "spDefense": 70,
     "Speed": 120
   },
   {
@@ -838,11 +838,11 @@
       "Normal"
     ],
     
-    "HP": 40,
+    "hp": 40,
     "Attack": 45,
     "Defense": 35,
-    "Sp. Attack": 40,
-    "Sp. Defense": 40,
+    "spAttack": 40,
+    "spDefense": 40,
     "Speed": 90
   },
   {
@@ -852,11 +852,11 @@
       "Normal"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 70,
     "Defense": 60,
-    "Sp. Attack": 65,
-    "Sp. Defense": 65,
+    "spAttack": 65,
+    "spDefense": 65,
     "Speed": 115
   },
   {
@@ -866,11 +866,11 @@
       "Water"
     ],
     
-    "HP": 50,
+    "hp": 50,
     "Attack": 52,
     "Defense": 48,
-    "Sp. Attack": 65,
-    "Sp. Defense": 50,
+    "spAttack": 65,
+    "spDefense": 50,
     "Speed": 55
   },
   {
@@ -880,11 +880,11 @@
       "Water"
     ],
     
-    "HP": 80,
+    "hp": 80,
     "Attack": 82,
     "Defense": 78,
-    "Sp. Attack": 95,
-    "Sp. Defense": 80,
+    "spAttack": 95,
+    "spDefense": 80,
     "Speed": 85
   },
   {
@@ -894,11 +894,11 @@
       "Fighting"
     ],
     
-    "HP": 40,
+    "hp": 40,
     "Attack": 80,
     "Defense": 35,
-    "Sp. Attack": 35,
-    "Sp. Defense": 45,
+    "spAttack": 35,
+    "spDefense": 45,
     "Speed": 70
   },
   {
@@ -908,11 +908,11 @@
       "Fighting"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 105,
     "Defense": 60,
-    "Sp. Attack": 60,
-    "Sp. Defense": 70,
+    "spAttack": 60,
+    "spDefense": 70,
     "Speed": 95
   },
   {
@@ -922,11 +922,11 @@
       "Fire"
     ],
     
-    "HP": 55,
+    "hp": 55,
     "Attack": 70,
     "Defense": 45,
-    "Sp. Attack": 70,
-    "Sp. Defense": 50,
+    "spAttack": 70,
+    "spDefense": 50,
     "Speed": 60
   },
   {
@@ -936,11 +936,11 @@
       "Fire"
     ],
     
-    "HP": 90,
+    "hp": 90,
     "Attack": 110,
     "Defense": 80,
-    "Sp. Attack": 100,
-    "Sp. Defense": 80,
+    "spAttack": 100,
+    "spDefense": 80,
     "Speed": 95
   },
   {
@@ -950,11 +950,11 @@
       "Water"
     ],
     
-    "HP": 40,
+    "hp": 40,
     "Attack": 50,
     "Defense": 40,
-    "Sp. Attack": 40,
-    "Sp. Defense": 40,
+    "spAttack": 40,
+    "spDefense": 40,
     "Speed": 90
   },
   {
@@ -964,11 +964,11 @@
       "Water"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 65,
     "Defense": 65,
-    "Sp. Attack": 50,
-    "Sp. Defense": 50,
+    "spAttack": 50,
+    "spDefense": 50,
     "Speed": 90
   },
   {
@@ -979,11 +979,11 @@
       "Fighting"
     ],
     
-    "HP": 90,
+    "hp": 90,
     "Attack": 95,
     "Defense": 95,
-    "Sp. Attack": 70,
-    "Sp. Defense": 90,
+    "spAttack": 70,
+    "spDefense": 90,
     "Speed": 70
   },
   {
@@ -993,11 +993,11 @@
       "Psychic"
     ],
     
-    "HP": 25,
+    "hp": 25,
     "Attack": 20,
     "Defense": 15,
-    "Sp. Attack": 105,
-    "Sp. Defense": 55,
+    "spAttack": 105,
+    "spDefense": 55,
     "Speed": 90
   },
   {
@@ -1007,11 +1007,11 @@
       "Psychic"
     ],
     
-    "HP": 40,
+    "hp": 40,
     "Attack": 35,
     "Defense": 30,
-    "Sp. Attack": 120,
-    "Sp. Defense": 70,
+    "spAttack": 120,
+    "spDefense": 70,
     "Speed": 105
   },
   {
@@ -1021,11 +1021,11 @@
       "Psychic"
     ],
     
-    "HP": 55,
+    "hp": 55,
     "Attack": 50,
     "Defense": 45,
-    "Sp. Attack": 135,
-    "Sp. Defense": 95,
+    "spAttack": 135,
+    "spDefense": 95,
     "Speed": 120
   },
   {
@@ -1035,11 +1035,11 @@
       "Psychic"
     ],
     
-    "HP": 55,
+    "hp": 55,
     "Attack": 50,
     "Defense": 65,
-    "Sp. Attack": 175,
-    "Sp. Defense": 105,
+    "spAttack": 175,
+    "spDefense": 105,
     "Speed": 150,
     "Mega" : true
   },
@@ -1050,11 +1050,11 @@
       "Fighting"
     ],
     
-    "HP": 70,
+    "hp": 70,
     "Attack": 80,
     "Defense": 50,
-    "Sp. Attack": 35,
-    "Sp. Defense": 35,
+    "spAttack": 35,
+    "spDefense": 35,
     "Speed": 35
   },
   {
@@ -1064,11 +1064,11 @@
       "Fighting"
     ],
     
-    "HP": 80,
+    "hp": 80,
     "Attack": 100,
     "Defense": 70,
-    "Sp. Attack": 50,
-    "Sp. Defense": 60,
+    "spAttack": 50,
+    "spDefense": 60,
     "Speed": 45
   },
   {
@@ -1078,11 +1078,11 @@
       "Fighting"
     ],
     
-    "HP": 90,
+    "hp": 90,
     "Attack": 130,
     "Defense": 80,
-    "Sp. Attack": 65,
-    "Sp. Defense": 85,
+    "spAttack": 65,
+    "spDefense": 85,
     "Speed": 55
   },
   {
@@ -1093,11 +1093,11 @@
       "Poison"
     ],
     
-    "HP": 50,
+    "hp": 50,
     "Attack": 75,
     "Defense": 35,
-    "Sp. Attack": 70,
-    "Sp. Defense": 30,
+    "spAttack": 70,
+    "spDefense": 30,
     "Speed": 40
   },
   {
@@ -1108,11 +1108,11 @@
       "Poison"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 90,
     "Defense": 50,
-    "Sp. Attack": 85,
-    "Sp. Defense": 45,
+    "spAttack": 85,
+    "spDefense": 45,
     "Speed": 55
   },
   {
@@ -1123,11 +1123,11 @@
       "Poison"
     ],
     
-    "HP": 80,
+    "hp": 80,
     "Attack": 105,
     "Defense": 65,
-    "Sp. Attack": 100,
-    "Sp. Defense": 70,
+    "spAttack": 100,
+    "spDefense": 70,
     "Speed": 70
   },
   {
@@ -1138,11 +1138,11 @@
       "Poison"
     ],
     
-    "HP": 40,
+    "hp": 40,
     "Attack": 40,
     "Defense": 35,
-    "Sp. Attack": 50,
-    "Sp. Defense": 100,
+    "spAttack": 50,
+    "spDefense": 100,
     "Speed": 70
   },
   {
@@ -1153,11 +1153,11 @@
       "Poison"
     ],
     
-    "HP": 80,
+    "hp": 80,
     "Attack": 70,
     "Defense": 65,
-    "Sp. Attack": 80,
-    "Sp. Defense": 120,
+    "spAttack": 80,
+    "spDefense": 120,
     "Speed": 100
   },
   {
@@ -1168,11 +1168,11 @@
       "Ground"
     ],
     
-    "HP": 40,
+    "hp": 40,
     "Attack": 80,
     "Defense": 100,
-    "Sp. Attack": 30,
-    "Sp. Defense": 30,
+    "spAttack": 30,
+    "spDefense": 30,
     "Speed": 20
   },
   {
@@ -1183,11 +1183,11 @@
       "Ground"
     ],
     
-    "HP": 55,
+    "hp": 55,
     "Attack": 95,
     "Defense": 115,
-    "Sp. Attack": 45,
-    "Sp. Defense": 45,
+    "spAttack": 45,
+    "spDefense": 45,
     "Speed": 35
   },
   {
@@ -1198,11 +1198,11 @@
       "Ground"
     ],
     
-    "HP": 80,
+    "hp": 80,
     "Attack": 120,
     "Defense": 130,
-    "Sp. Attack": 55,
-    "Sp. Defense": 65,
+    "spAttack": 55,
+    "spDefense": 65,
     "Speed": 45
   },
   {
@@ -1212,11 +1212,11 @@
       "Fire"
     ],
     
-    "HP": 50,
+    "hp": 50,
     "Attack": 85,
     "Defense": 55,
-    "Sp. Attack": 65,
-    "Sp. Defense": 65,
+    "spAttack": 65,
+    "spDefense": 65,
     "Speed": 90
   },
   {
@@ -1226,11 +1226,11 @@
       "Fire"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 100,
     "Defense": 70,
-    "Sp. Attack": 80,
-    "Sp. Defense": 80,
+    "spAttack": 80,
+    "spDefense": 80,
     "Speed": 105
   },
   {
@@ -1241,11 +1241,11 @@
       "Psychic"
     ],
     
-    "HP": 90,
+    "hp": 90,
     "Attack": 65,
     "Defense": 65,
-    "Sp. Attack": 40,
-    "Sp. Defense": 40,
+    "spAttack": 40,
+    "spDefense": 40,
     "Speed": 15
   },
   {
@@ -1256,11 +1256,11 @@
       "Psychic"
     ],
     
-    "HP": 95,
+    "hp": 95,
     "Attack": 75,
     "Defense": 110,
-    "Sp. Attack": 100,
-    "Sp. Defense": 80,
+    "spAttack": 100,
+    "spDefense": 80,
     "Speed": 30
   },
   {
@@ -1271,11 +1271,11 @@
       "Psychic"
     ],
     
-    "HP": 95,
+    "hp": 95,
     "Attack": 75,
     "Defense": 180,
-    "Sp. Attack": 130,
-    "Sp. Defense": 80,
+    "spAttack": 130,
+    "spDefense": 80,
     "Speed": 30,
     "Mega" : true
   },
@@ -1287,11 +1287,11 @@
       "Steel"
     ],
     
-    "HP": 25,
+    "hp": 25,
     "Attack": 35,
     "Defense": 70,
-    "Sp. Attack": 95,
-    "Sp. Defense": 55,
+    "spAttack": 95,
+    "spDefense": 55,
     "Speed": 45
   },
   {
@@ -1302,11 +1302,11 @@
       "Steel"
     ],
     
-    "HP": 50,
+    "hp": 50,
     "Attack": 60,
     "Defense": 95,
-    "Sp. Attack": 120,
-    "Sp. Defense": 70,
+    "spAttack": 120,
+    "spDefense": 70,
     "Speed": 70
   },
   {
@@ -1317,11 +1317,11 @@
       "Flying"
     ],
     
-    "HP": 52,
+    "hp": 52,
     "Attack": 90,
     "Defense": 55,
-    "Sp. Attack": 58,
-    "Sp. Defense": 62,
+    "spAttack": 58,
+    "spDefense": 62,
     "Speed": 60
   },
   {
@@ -1332,11 +1332,11 @@
       "Flying"
     ],
     
-    "HP": 35,
+    "hp": 35,
     "Attack": 85,
     "Defense": 45,
-    "Sp. Attack": 35,
-    "Sp. Defense": 35,
+    "spAttack": 35,
+    "spDefense": 35,
     "Speed": 75
   },
   {
@@ -1347,11 +1347,11 @@
       "Flying"
     ],
     
-    "HP": 60,
+    "hp": 60,
     "Attack": 110,
     "Defense": 70,
-    "Sp. Attack": 60,
-    "Sp. Defense": 60,
+    "spAttack": 60,
+    "spDefense": 60,
     "Speed": 110
   },
   {
@@ -1361,11 +1361,11 @@
       "Water"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 45,
     "Defense": 55,
-    "Sp. Attack": 45,
-    "Sp. Defense": 70,
+    "spAttack": 45,
+    "spDefense": 70,
     "Speed": 45
   },
   {
@@ -1376,11 +1376,11 @@
       "Ice"
     ],
     
-    "HP": 90,
+    "hp": 90,
     "Attack": 70,
     "Defense": 80,
-    "Sp. Attack": 70,
-    "Sp. Defense": 95,
+    "spAttack": 70,
+    "spDefense": 95,
     "Speed": 70
   },
   {
@@ -1390,11 +1390,11 @@
       "Poison"
     ],
     
-    "HP": 80,
+    "hp": 80,
     "Attack": 80,
     "Defense": 50,
-    "Sp. Attack": 40,
-    "Sp. Defense": 50,
+    "spAttack": 40,
+    "spDefense": 50,
     "Speed": 25
   },
   {
@@ -1404,11 +1404,11 @@
       "Poison"
     ],
     
-    "HP": 105,
+    "hp": 105,
     "Attack": 105,
     "Defense": 75,
-    "Sp. Attack": 65,
-    "Sp. Defense": 100,
+    "spAttack": 65,
+    "spDefense": 100,
     "Speed": 50
   },
   {
@@ -1418,11 +1418,11 @@
       "Water"
     ],
     
-    "HP": 30,
+    "hp": 30,
     "Attack": 65,
     "Defense": 100,
-    "Sp. Attack": 45,
-    "Sp. Defense": 25,
+    "spAttack": 45,
+    "spDefense": 25,
     "Speed": 40
   },
   {
@@ -1433,11 +1433,11 @@
       "Ice"
     ],
     
-    "HP": 50,
+    "hp": 50,
     "Attack": 95,
     "Defense": 180,
-    "Sp. Attack": 85,
-    "Sp. Defense": 45,
+    "spAttack": 85,
+    "spDefense": 45,
     "Speed": 70
   },
   {
@@ -1448,11 +1448,11 @@
       "Poison"
     ],
     
-    "HP": 30,
+    "hp": 30,
     "Attack": 35,
     "Defense": 30,
-    "Sp. Attack": 100,
-    "Sp. Defense": 35,
+    "spAttack": 100,
+    "spDefense": 35,
     "Speed": 80
   },
   {
@@ -1463,11 +1463,11 @@
       "Poison"
     ],
     
-    "HP": 45,
+    "hp": 45,
     "Attack": 50,
     "Defense": 45,
-    "Sp. Attack": 115,
-    "Sp. Defense": 55,
+    "spAttack": 115,
+    "spDefense": 55,
     "Speed": 95
   },
   {
@@ -1478,11 +1478,11 @@
       "Poison"
     ],
     
-    "HP": 60,
+    "hp": 60,
     "Attack": 65,
     "Defense": 60,
-    "Sp. Attack": 130,
-    "Sp. Defense": 75,
+    "spAttack": 130,
+    "spDefense": 75,
     "Speed": 110
   },
   {
@@ -1493,11 +1493,11 @@
       "Poison"
     ],
     
-    "HP": 60,
+    "hp": 60,
     "Attack": 65,
     "Defense": 80,
-    "Sp. Attack": 170,
-    "Sp. Defense": 95,
+    "spAttack": 170,
+    "spDefense": 95,
     "Speed": 130,
     "Mega" : true
   },
@@ -1509,11 +1509,11 @@
       "Ground"
     ],
     
-    "HP": 35,
+    "hp": 35,
     "Attack": 45,
     "Defense": 160,
-    "Sp. Attack": 30,
-    "Sp. Defense": 45,
+    "spAttack": 30,
+    "spDefense": 45,
     "Speed": 70
   },
   {
@@ -1523,11 +1523,11 @@
       "Psychic"
     ],
     
-    "HP": 60,
+    "hp": 60,
     "Attack": 48,
     "Defense": 45,
-    "Sp. Attack": 43,
-    "Sp. Defense": 90,
+    "spAttack": 43,
+    "spDefense": 90,
     "Speed": 42
   },
   {
@@ -1537,11 +1537,11 @@
       "Psychic"
     ],
     
-    "HP": 85,
+    "hp": 85,
     "Attack": 73,
     "Defense": 70,
-    "Sp. Attack": 73,
-    "Sp. Defense": 115,
+    "spAttack": 73,
+    "spDefense": 115,
     "Speed": 67
   },
   {
@@ -1551,11 +1551,11 @@
       "Water"
     ],
     
-    "HP": 30,
+    "hp": 30,
     "Attack": 105,
     "Defense": 90,
-    "Sp. Attack": 25,
-    "Sp. Defense": 25,
+    "spAttack": 25,
+    "spDefense": 25,
     "Speed": 50
   },
   {
@@ -1565,11 +1565,11 @@
       "Water"
     ],
     
-    "HP": 55,
+    "hp": 55,
     "Attack": 130,
     "Defense": 115,
-    "Sp. Attack": 50,
-    "Sp. Defense": 50,
+    "spAttack": 50,
+    "spDefense": 50,
     "Speed": 75
   },
   {
@@ -1579,11 +1579,11 @@
       "Electric"
     ],
     
-    "HP": 40,
+    "hp": 40,
     "Attack": 30,
     "Defense": 50,
-    "Sp. Attack": 55,
-    "Sp. Defense": 55,
+    "spAttack": 55,
+    "spDefense": 55,
     "Speed": 100
   },
   {
@@ -1593,11 +1593,11 @@
       "Electric"
     ],
     
-    "HP": 60,
+    "hp": 60,
     "Attack": 50,
     "Defense": 70,
-    "Sp. Attack": 80,
-    "Sp. Defense": 80,
+    "spAttack": 80,
+    "spDefense": 80,
     "Speed": 150
   },
   {
@@ -1608,11 +1608,11 @@
       "Psychic"
     ],
     
-    "HP": 60,
+    "hp": 60,
     "Attack": 40,
     "Defense": 80,
-    "Sp. Attack": 60,
-    "Sp. Defense": 45,
+    "spAttack": 60,
+    "spDefense": 45,
     "Speed": 40
   },
   {
@@ -1623,11 +1623,11 @@
       "Psychic"
     ],
     
-    "HP": 95,
+    "hp": 95,
     "Attack": 95,
     "Defense": 85,
-    "Sp. Attack": 125,
-    "Sp. Defense": 75,
+    "spAttack": 125,
+    "spDefense": 75,
     "Speed": 55
   },
   {
@@ -1637,11 +1637,11 @@
       "Ground"
     ],
     
-    "HP": 50,
+    "hp": 50,
     "Attack": 50,
     "Defense": 95,
-    "Sp. Attack": 40,
-    "Sp. Defense": 50,
+    "spAttack": 40,
+    "spDefense": 50,
     "Speed": 35
   },
   {
@@ -1651,11 +1651,11 @@
       "Ground"
     ],
     
-    "HP": 60,
+    "hp": 60,
     "Attack": 80,
     "Defense": 110,
-    "Sp. Attack": 50,
-    "Sp. Defense": 80,
+    "spAttack": 50,
+    "spDefense": 80,
     "Speed": 45
   },
   {
@@ -1665,11 +1665,11 @@
       "Fighting"
     ],
     
-    "HP": 50,
+    "hp": 50,
     "Attack": 120,
     "Defense": 53,
-    "Sp. Attack": 35,
-    "Sp. Defense": 110,
+    "spAttack": 35,
+    "spDefense": 110,
     "Speed": 87
   },
   {
@@ -1679,11 +1679,11 @@
       "Fighting"
     ],
     
-    "HP": 50,
+    "hp": 50,
     "Attack": 105,
     "Defense": 79,
-    "Sp. Attack": 35,
-    "Sp. Defense": 110,
+    "spAttack": 35,
+    "spDefense": 110,
     "Speed": 76
   },
   {
@@ -1693,11 +1693,11 @@
       "Normal"
     ],
     
-    "HP": 90,
+    "hp": 90,
     "Attack": 55,
     "Defense": 75,
-    "Sp. Attack": 60,
-    "Sp. Defense": 75,
+    "spAttack": 60,
+    "spDefense": 75,
     "Speed": 30
   },
   {
@@ -1707,11 +1707,11 @@
       "Poison"
     ],
     
-    "HP": 40,
+    "hp": 40,
     "Attack": 65,
     "Defense": 95,
-    "Sp. Attack": 60,
-    "Sp. Defense": 45,
+    "spAttack": 60,
+    "spDefense": 45,
     "Speed": 35
   },
   {
@@ -1721,11 +1721,11 @@
       "Poison"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 90,
     "Defense": 120,
-    "Sp. Attack": 85,
-    "Sp. Defense": 70,
+    "spAttack": 85,
+    "spDefense": 70,
     "Speed": 60
   },
   {
@@ -1736,11 +1736,11 @@
       "Rock"
     ],
     
-    "HP": 80,
+    "hp": 80,
     "Attack": 85,
     "Defense": 95,
-    "Sp. Attack": 30,
-    "Sp. Defense": 30,
+    "spAttack": 30,
+    "spDefense": 30,
     "Speed": 25
   },
   {
@@ -1751,11 +1751,11 @@
       "Rock"
     ],
     
-    "HP": 105,
+    "hp": 105,
     "Attack": 130,
     "Defense": 120,
-    "Sp. Attack": 45,
-    "Sp. Defense": 45,
+    "spAttack": 45,
+    "spDefense": 45,
     "Speed": 40
   },
   {
@@ -1765,11 +1765,11 @@
       "Normal"
     ],
     
-    "HP": 250,
+    "hp": 250,
     "Attack": 5,
     "Defense": 5,
-    "Sp. Attack": 35,
-    "Sp. Defense": 105,
+    "spAttack": 35,
+    "spDefense": 105,
     "Speed": 50
   },
   {
@@ -1779,11 +1779,11 @@
       "Grass"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 55,
     "Defense": 115,
-    "Sp. Attack": 100,
-    "Sp. Defense": 40,
+    "spAttack": 100,
+    "spDefense": 40,
     "Speed": 60
   },
   {
@@ -1793,11 +1793,11 @@
       "Normal"
     ],
     
-    "HP": 105,
+    "hp": 105,
     "Attack": 95,
     "Defense": 80,
-    "Sp. Attack": 40,
-    "Sp. Defense": 80,
+    "spAttack": 40,
+    "spDefense": 80,
     "Speed": 90
   },
   {
@@ -1807,11 +1807,11 @@
       "Normal"
     ],
     
-    "HP": 105,
+    "hp": 105,
     "Attack": 125,
     "Defense": 100,
-    "Sp. Attack": 60,
-    "Sp. Defense": 100,
+    "spAttack": 60,
+    "spDefense": 100,
     "Speed": 100,
     "Mega" : true
   },
@@ -1822,11 +1822,11 @@
       "Water"
     ],
     
-    "HP": 30,
+    "hp": 30,
     "Attack": 40,
     "Defense": 70,
-    "Sp. Attack": 70,
-    "Sp. Defense": 25,
+    "spAttack": 70,
+    "spDefense": 25,
     "Speed": 60
   },
   {
@@ -1836,11 +1836,11 @@
       "Water"
     ],
     
-    "HP": 55,
+    "hp": 55,
     "Attack": 65,
     "Defense": 95,
-    "Sp. Attack": 95,
-    "Sp. Defense": 45,
+    "spAttack": 95,
+    "spDefense": 45,
     "Speed": 85
   },
   {
@@ -1850,11 +1850,11 @@
       "Water"
     ],
     
-    "HP": 45,
+    "hp": 45,
     "Attack": 67,
     "Defense": 60,
-    "Sp. Attack": 35,
-    "Sp. Defense": 50,
+    "spAttack": 35,
+    "spDefense": 50,
     "Speed": 63
   },
   {
@@ -1864,11 +1864,11 @@
       "Water"
     ],
     
-    "HP": 80,
+    "hp": 80,
     "Attack": 92,
     "Defense": 65,
-    "Sp. Attack": 65,
-    "Sp. Defense": 80,
+    "spAttack": 65,
+    "spDefense": 80,
     "Speed": 68
   },
   {
@@ -1878,11 +1878,11 @@
       "Water"
     ],
     
-    "HP": 30,
+    "hp": 30,
     "Attack": 45,
     "Defense": 55,
-    "Sp. Attack": 70,
-    "Sp. Defense": 55,
+    "spAttack": 70,
+    "spDefense": 55,
     "Speed": 85
   },
   {
@@ -1893,11 +1893,11 @@
       "Psychic"
     ],
     
-    "HP": 60,
+    "hp": 60,
     "Attack": 75,
     "Defense": 85,
-    "Sp. Attack": 100,
-    "Sp. Defense": 85,
+    "spAttack": 100,
+    "spDefense": 85,
     "Speed": 115
   },
   {
@@ -1908,11 +1908,11 @@
       "Fairy"
     ],
     
-    "HP": 40,
+    "hp": 40,
     "Attack": 45,
     "Defense": 65,
-    "Sp. Attack": 100,
-    "Sp. Defense": 120,
+    "spAttack": 100,
+    "spDefense": 120,
     "Speed": 90
   },
   {
@@ -1923,11 +1923,11 @@
       "Flying"
     ],
     
-    "HP": 70,
+    "hp": 70,
     "Attack": 110,
     "Defense": 80,
-    "Sp. Attack": 55,
-    "Sp. Defense": 80,
+    "spAttack": 55,
+    "spDefense": 80,
     "Speed": 105
   },
   {
@@ -1938,11 +1938,11 @@
       "Psychic"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 50,
     "Defense": 35,
-    "Sp. Attack": 115,
-    "Sp. Defense": 95,
+    "spAttack": 115,
+    "spDefense": 95,
     "Speed": 95
   },
   {
@@ -1952,11 +1952,11 @@
       "Electric"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 83,
     "Defense": 57,
-    "Sp. Attack": 95,
-    "Sp. Defense": 85,
+    "spAttack": 95,
+    "spDefense": 85,
     "Speed": 105
   },
   {
@@ -1966,11 +1966,11 @@
       "Fire"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 95,
     "Defense": 57,
-    "Sp. Attack": 100,
-    "Sp. Defense": 85,
+    "spAttack": 100,
+    "spDefense": 85,
     "Speed": 93
   },
   {
@@ -1980,11 +1980,11 @@
       "Bug"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 125,
     "Defense": 100,
-    "Sp. Attack": 55,
-    "Sp. Defense": 70,
+    "spAttack": 55,
+    "spDefense": 70,
     "Speed": 85
   },
   {
@@ -1995,11 +1995,11 @@
       "Flying"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 155,
     "Defense": 120,
-    "Sp. Attack": 65,
-    "Sp. Defense": 90,
+    "spAttack": 65,
+    "spDefense": 90,
     "Speed": 105,
     "Mega" : true
   },
@@ -2010,11 +2010,11 @@
       "Normal"
     ],
     
-    "HP": 75,
+    "hp": 75,
     "Attack": 100,
     "Defense": 95,
-    "Sp. Attack": 40,
-    "Sp. Defense": 70,
+    "spAttack": 40,
+    "spDefense": 70,
     "Speed": 110
   },
   {
@@ -2024,11 +2024,11 @@
       "Water"
     ],
     
-    "HP": 20,
+    "hp": 20,
     "Attack": 10,
     "Defense": 55,
-    "Sp. Attack": 15,
-    "Sp. Defense": 20,
+    "spAttack": 15,
+    "spDefense": 20,
     "Speed": 80
   },
   {
@@ -2039,11 +2039,11 @@
       "Flying"
     ],
     
-    "HP": 95,
+    "hp": 95,
     "Attack": 125,
     "Defense": 79,
-    "Sp. Attack": 60,
-    "Sp. Defense": 100,
+    "spAttack": 60,
+    "spDefense": 100,
     "Speed": 81
   },
   {
@@ -2054,11 +2054,11 @@
       "Dark"
     ],
     
-    "HP": 95,
+    "hp": 95,
     "Attack": 155,
     "Defense": 109,
-    "Sp. Attack": 70,
-    "Sp. Defense": 130,
+    "spAttack": 70,
+    "spDefense": 130,
     "Speed": 81,
     "Mega" : true
   },
@@ -2070,11 +2070,11 @@
       "Ice"
     ],
     
-    "HP": 130,
+    "hp": 130,
     "Attack": 85,
     "Defense": 80,
-    "Sp. Attack": 85,
-    "Sp. Defense": 95,
+    "spAttack": 85,
+    "spDefense": 95,
     "Speed": 60
   },
   {
@@ -2084,11 +2084,11 @@
       "Normal"
     ],
     
-    "HP": 48,
+    "hp": 48,
     "Attack": 48,
     "Defense": 48,
-    "Sp. Attack": 48,
-    "Sp. Defense": 48,
+    "spAttack": 48,
+    "spDefense": 48,
     "Speed": 48
   },
   {
@@ -2098,11 +2098,11 @@
       "Normal"
     ],
     
-    "HP": 55,
+    "hp": 55,
     "Attack": 55,
     "Defense": 50,
-    "Sp. Attack": 45,
-    "Sp. Defense": 65,
+    "spAttack": 45,
+    "spDefense": 65,
     "Speed": 55
   },
   {
@@ -2112,11 +2112,11 @@
       "Water"
     ],
     
-    "HP": 130,
+    "hp": 130,
     "Attack": 65,
     "Defense": 60,
-    "Sp. Attack": 110,
-    "Sp. Defense": 95,
+    "spAttack": 110,
+    "spDefense": 95,
     "Speed": 65
   },
   {
@@ -2126,11 +2126,11 @@
       "Electric"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 65,
     "Defense": 60,
-    "Sp. Attack": 110,
-    "Sp. Defense": 95,
+    "spAttack": 110,
+    "spDefense": 95,
     "Speed": 130
   },
   {
@@ -2140,11 +2140,11 @@
       "Fire"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 130,
     "Defense": 60,
-    "Sp. Attack": 95,
-    "Sp. Defense": 110,
+    "spAttack": 95,
+    "spDefense": 110,
     "Speed": 65
   },
   {
@@ -2154,11 +2154,11 @@
       "Normal"
     ],
     
-    "HP": 65,
+    "hp": 65,
     "Attack": 60,
     "Defense": 70,
-    "Sp. Attack": 85,
-    "Sp. Defense": 75,
+    "spAttack": 85,
+    "spDefense": 75,
     "Speed": 40
   },
   {
@@ -2169,11 +2169,11 @@
       "Water"
     ],
     
-    "HP": 35,
+    "hp": 35,
     "Attack": 40,
     "Defense": 100,
-    "Sp. Attack": 90,
-    "Sp. Defense": 55,
+    "spAttack": 90,
+    "spDefense": 55,
     "Speed": 35
   },
   {
@@ -2184,11 +2184,11 @@
       "Water"
     ],
     
-    "HP": 70,
+    "hp": 70,
     "Attack": 60,
     "Defense": 125,
-    "Sp. Attack": 115,
-    "Sp. Defense": 70,
+    "spAttack": 115,
+    "spDefense": 70,
     "Speed": 55
   },
   {
@@ -2199,11 +2199,11 @@
       "Water"
     ],
     
-    "HP": 30,
+    "hp": 30,
     "Attack": 80,
     "Defense": 90,
-    "Sp. Attack": 55,
-    "Sp. Defense": 45,
+    "spAttack": 55,
+    "spDefense": 45,
     "Speed": 55
   },
   {
@@ -2214,11 +2214,11 @@
       "Water"
     ],
     
-    "HP": 60,
+    "hp": 60,
     "Attack": 115,
     "Defense": 105,
-    "Sp. Attack": 65,
-    "Sp. Defense": 70,
+    "spAttack": 65,
+    "spDefense": 70,
     "Speed": 80
   },
   {
@@ -2229,11 +2229,11 @@
       "Flying"
     ],
     
-    "HP": 80,
+    "hp": 80,
     "Attack": 105,
     "Defense": 65,
-    "Sp. Attack": 60,
-    "Sp. Defense": 75,
+    "spAttack": 60,
+    "spDefense": 75,
     "Speed": 130
   },
   {
@@ -2244,11 +2244,11 @@
       "Flying"
     ],
     
-    "HP": 80,
+    "hp": 80,
     "Attack": 135,
     "Defense": 85,
-    "Sp. Attack": 70,
-    "Sp. Defense": 95,
+    "spAttack": 70,
+    "spDefense": 95,
     "Speed": 150,
     "Mega" : true
   },
@@ -2259,11 +2259,11 @@
       "Normal"
     ],
     
-    "HP": 160,
+    "hp": 160,
     "Attack": 110,
     "Defense": 65,
-    "Sp. Attack": 65,
-    "Sp. Defense": 110,
+    "spAttack": 65,
+    "spDefense": 110,
     "Speed": 30
   },
   {
@@ -2274,11 +2274,11 @@
       "Flying"
     ],
     
-    "HP": 90,
+    "hp": 90,
     "Attack": 85,
     "Defense": 100,
-    "Sp. Attack": 95,
-    "Sp. Defense": 125,
+    "spAttack": 95,
+    "spDefense": 125,
     "Speed": 85
   },
   {
@@ -2289,11 +2289,11 @@
       "Flying"
     ],
     
-    "HP": 90,
+    "hp": 90,
     "Attack": 90,
     "Defense": 85,
-    "Sp. Attack": 125,
-    "Sp. Defense": 90,
+    "spAttack": 125,
+    "spDefense": 90,
     "Speed": 100
   },
   {
@@ -2304,11 +2304,11 @@
       "Flying"
     ],
     
-    "HP": 90,
+    "hp": 90,
     "Attack": 100,
     "Defense": 90,
-    "Sp. Attack": 125,
-    "Sp. Defense": 85,
+    "spAttack": 125,
+    "spDefense": 85,
     "Speed": 90
   },
   {
@@ -2318,11 +2318,11 @@
       "Dragon"
     ],
     
-    "HP": 41,
+    "hp": 41,
     "Attack": 64,
     "Defense": 45,
-    "Sp. Attack": 50,
-    "Sp. Defense": 50,
+    "spAttack": 50,
+    "spDefense": 50,
     "Speed": 50
   },
   {
@@ -2332,11 +2332,11 @@
       "Dragon"
     ],
     
-    "HP": 61,
+    "hp": 61,
     "Attack": 84,
     "Defense": 65,
-    "Sp. Attack": 70,
-    "Sp. Defense": 70,
+    "spAttack": 70,
+    "spDefense": 70,
     "Speed": 70
   },
   {
@@ -2347,11 +2347,11 @@
       "Flying"
     ],
     
-    "HP": 91,
+    "hp": 91,
     "Attack": 134,
     "Defense": 95,
-    "Sp. Attack": 100,
-    "Sp. Defense": 100,
+    "spAttack": 100,
+    "spDefense": 100,
     "Speed": 80
   },
   {
@@ -2361,11 +2361,11 @@
       "Psychic"
     ],
     
-    "HP": 106,
+    "hp": 106,
     "Attack": 110,
     "Defense": 90,
-    "Sp. Attack": 154,
-    "Sp. Defense": 90,
+    "spAttack": 154,
+    "spDefense": 90,
     "Speed": 130
   },
   {
@@ -2376,11 +2376,11 @@
       "Fighting"
     ],
     
-    "HP": 106,
+    "hp": 106,
     "Attack": 190,
     "Defense": 100,
-    "Sp. Attack": 154,
-    "Sp. Defense": 100,
+    "spAttack": 154,
+    "spDefense": 100,
     "Speed": 130,
     "Mega" : true
   },
@@ -2391,11 +2391,11 @@
       "Psychic"
     ],
     
-    "HP": 106,
+    "hp": 106,
     "Attack": 150,
     "Defense": 70,
-    "Sp. Attack": 194,
-    "Sp. Defense": 120,
+    "spAttack": 194,
+    "spDefense": 120,
     "Speed": 140,
     "Mega" : true
   },
@@ -2406,11 +2406,11 @@
       "Psychic"
     ],
     
-    "HP": 100,
+    "hp": 100,
     "Attack": 100,
     "Defense": 100,
-    "Sp. Attack": 100,
-    "Sp. Defense": 100,
+    "spAttack": 100,
+    "spDefense": 100,
     "Speed": 100
   }
   ]
