@@ -5,18 +5,29 @@ from pyparsing import Word, alphas, nums, Literal, ParseException
 import admin
 
 _db = admin.db
-pokemon_ref = _db.collection("pokemon")
+pokemon_ref = _db
 
 
 #Grammar Elements
 text = Word(alphas)
 integer = Word(nums)
 equals = Literal('=')
+_is = Literal('is')
+greater_than = Literal('>')
+less_than = Literal('<')
 
 #Grammars
 t = text
 tet = text + equals + text
 tei = text + equals + integer
+is_tet = text + _is + text
+is_tei = text + _is + integer
+greater_tei = text + greater_than + integer
+less_tei = text + less_than + integer
+tt = text + text
+
+mega_list = ['Venusaur', 'Blastoise', 'Charizard', 'Gyarados', 'Pidgeot', 'Beedrill', 'Gengar', 'Alakazam',
+             'Slowbro', 'Kangaskhan', 'Pinsir', 'Aerodactyl', 'Mewtwo']
 
 #POSSIBLE INPUTS
 # 1) Help, Quit - text
@@ -66,11 +77,60 @@ def parse(line: str):
     except ParseException:
         pass
 
+    # try tei with 'is'
+    try:
+        # Use asList to convert parseList into regular python list for consistency
+        val = is_tei.parseString(line).asList()
+        # normalize operator and cast integer for firestore
+        val[1] = '=='
+        val[2] = int(val[2])
+        return val
+    except ParseException:
+        pass
+
+    # Try tei with greater than
+    try:
+        # Use asList to convert parseList into regular python list for consistency
+        val = greater_tei.parseString(line).asList()
+        # normalize operator and cast integer for firestore
+        val[1] = '>'
+        val[2] = int(val[2])
+        return val
+    except ParseException:
+        pass
+
+    # Try tei with less than
+    try:
+        # Use asList to convert parseList into regular python list for consistency
+        val = less_tei.parseString(line).asList()
+        # normalize operator and cast integer for firestore
+        val[1] = '<'
+        val[2] = int(val[2])
+        return val
+    except ParseException:
+        pass
+
+
     # try tet
     try:
         res = tet.parseString(line).asList()
         # convert user input operator to firestore operator
         res[1] = '=='
+        return res
+    except ParseException:
+        pass
+
+    # try tet with 'is'
+    try:
+        res = is_tet.parseString(line).asList()
+        # convert user input operator to firestore operator
+        res[1] = '=='
+        return res
+    except ParseException:
+        pass
+
+    try:
+        res = tt.parseString(line).asList()
         return res
     except ParseException:
         pass
@@ -113,6 +173,13 @@ def or_query(lhs, rhs):
     ]))
     print_docs(q.stream())
 
+def mega_query(field, value):
+    if field == 'mega':
+        field = 'hasMega'
+    q = pokemon_ref.where(filter = FieldFilter(field, value))
+    print_docs(q.stream())
+
+
 # Handles output of firestore data in the console
 def print_docs(docs):
     flag = False
@@ -120,11 +187,15 @@ def print_docs(docs):
         flag = True
         # necessary firestore thing I don't really understand but is probably obvious if I took the time to read
         d = doc.to_dict()
-        name = (d.get('name') or {}).get('english')
+        name = (d['name'])
         types = d.get('type') or []
-        hp = (d.get('base') or {}).get('HP')
+        hp = (d['hp'])
+        if name in mega_list:
+            has_mega = (d['hasMega'])
+        else:
+            has_mega = False
         type_str = "/".join(types) if types else ""
-        print(f"{d.get('id')}: {name} [{type_str}], HP={hp}")
+        print(f"{d.get('id')}: {name} [{type_str}], HP={hp}, mega={has_mega}")
     if not flag:
         print("No results.")
 
@@ -152,6 +223,11 @@ def query():
             # Handles simple tokens like name = charmander -> [name, =, charmander]
             if len(tokens) == 3:
                 single_query(tokens[0], tokens[1], tokens[2])
+                continue
+
+            # Handles mega tokens
+            if len(tokens) == 2:
+                mega_query(tokens[0], tokens[1])
                 continue
 
             # Handles compound and | or tokens like name = charmander or type = grass
@@ -188,7 +264,7 @@ def map_field_value(field, op, value):
 
     if f == 'name':
         # firestore name
-        return ('name.english', op, v)
+        return ('name', op, v)
     if f == 'type':
         # Types are held in an array
         return ('type', 'array_contains', v)
@@ -197,7 +273,7 @@ def map_field_value(field, op, value):
         return ('id', op, v)
     if f == 'hp':
         # firestore hp
-        return ('base.HP', op, v)
+        return ('hp', op, v)
 
     # fallback
     return (f, op, v)
