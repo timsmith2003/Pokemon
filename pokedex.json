@@ -42,7 +42,7 @@
     "Speed": 80
   },
   {
-    "id": 3,
+    "id": 152,
     "name": "Mega Venusaur",
     "type": [
       "Grass",
@@ -101,7 +101,7 @@
     "Speed": 100
   },
   {
-    "id": 6,
+    "id": 153,
     "name": "Mega Charizard X",
     "type": [
       "Fire",
@@ -117,7 +117,7 @@
     "Mega" : true
   },
   {
-    "id": 6,
+    "id": 154,
     "name": "Mega Charizard Y",
     "type": [
       "Fire",
@@ -175,7 +175,7 @@
     "Speed": 78
   },
   {
-    "id": 9,
+    "id": 155,
     "name": "Mega Blastoise",
     "type": [
       "Water"
@@ -278,7 +278,7 @@
     "Speed": 75
   },
   {
-    "id": 15,
+    "id": 156,
     "name": "Mega Beedrill",
     "type": [
       "Bug",
@@ -339,7 +339,7 @@
     "Speed": 101
   },
   {
-    "id": 18,
+    "id": 157,
     "name": "Mega Pidgeot",
     "type": [
       "Normal",
@@ -1029,7 +1029,7 @@
     "Speed": 120
   },
   {
-    "id": 65,
+    "id": 158,
     "name": "Mega Alakazam",
     "type": [
       "Psychic"
@@ -1264,7 +1264,7 @@
     "Speed": 30
   },
   {
-    "id": 80,
+    "id": 159,
     "name": "Mega Slowbro",
     "type": [
       "Water",
@@ -1486,7 +1486,7 @@
     "Speed": 110
   },
   {
-    "id": 94,
+    "id": 160,
     "name": "Mega Gengar",
     "type": [
       "Ghost",
@@ -1801,7 +1801,7 @@
     "Speed": 90
   },
   {
-    "id": 115,
+    "id": 161,
     "name": "Mega Kangaskhan",
     "type": [
       "Normal"
@@ -1988,7 +1988,7 @@
     "Speed": 85
   },
   {
-    "id": 127,
+    "id": 162,
     "name": "Mega Pinsir",
     "type": [
       "Bug",
@@ -2047,7 +2047,7 @@
     "Speed": 81
   },
   {
-    "id": 130,
+    "id": 163,
     "name": "Mega Gyarados",
     "type": [
       "Water",
@@ -2237,7 +2237,7 @@
     "Speed": 130
   },
   {
-    "id": 142,
+    "id": 164,
     "name": "Mega Aerodactyl",
     "type": [
       "Rock",
@@ -2369,7 +2369,7 @@
     "Speed": 130
   },
   {
-    "id": 150,
+    "id": 165,
     "name": "Mega Mewtwo X",
     "type": [
       "Psychic",
@@ -2385,7 +2385,7 @@
     "Mega" : true
   },
   {
-    "id": 150,
+    "id": 166,
     "name": "Mega Mewtwo Y",
     "type": [
       "Psychic"
