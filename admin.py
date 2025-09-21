@@ -1,26 +1,27 @@
 from google.cloud.firestore_v1.base_query import FieldFilter
 import json
 import authentication
+from poke_class import Pokemon
 
 db = authentication.db.collection("pokemon")
 
 with open('pokedex.json') as data_file:    
     data = json.load(data_file)
     for v in data:
-        doc_ref = db.document(str(v["name"]))
+        doc_ref = db.document(str(v["id"]))
         doc_ref.set(v)
 
-# This code brings data back in
-docs = (
-    db.where(filter=FieldFilter("name", "==", "Venusaur")).stream()
-)
 
-for doc in docs:
-    print(f"{doc.id} => {doc.to_dict()}")
 
-large_us_cities_query = db.where(
-    filter=FieldFilter("state", "==", "CA")
-).where(filter=FieldFilter("population", ">", 1000000))
+query = db.where(
+    filter=FieldFilter("hp", ">", 100)
+).where("hp", "<", 150).get()
+
+for doc in query:
+    p = Pokemon.from_dict(source=doc)
+    print(p.to_dict())
+
+
 
 #Flatten the data so thweres not sublists in the attributes part
 
