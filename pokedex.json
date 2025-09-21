@@ -39,23 +39,8 @@
     "Defense": 83,
     "spAttack": 100,
     "spDefense": 100,
-    "Speed": 80
-  },
-  {
-    "id": 152,
-    "name": "Mega Venusaur",
-    "type": [
-      "Grass",
-      "Poison"
-    ],
-    
-    "hp": 80,
-    "Attack": 100,
-    "Defense": 123,
-    "spAttack": 122,
-    "spDefense": 120,
     "Speed": 80,
-    "Mega" : true
+    "hasMega": true
   },
   {
     "id": 4,
@@ -98,39 +83,8 @@
     "Defense": 78,
     "spAttack": 109,
     "spDefense": 85,
-    "Speed": 100
-  },
-  {
-    "id": 153,
-    "name": "Mega Charizard X",
-    "type": [
-      "Fire",
-      "Dragon"
-    ],
-    
-    "hp": 78,
-    "Attack": 130,
-    "Defense": 111,
-    "spAttack": 130,
-    "spDefense": 85,
     "Speed": 100,
-    "Mega" : true
-  },
-  {
-    "id": 154,
-    "name": "Mega Charizard Y",
-    "type": [
-      "Fire",
-      "Flying"
-    ],
-    
-    "hp": 78,
-    "Attack": 104,
-    "Defense": 78,
-    "spAttack": 159,
-    "spDefense": 115,
-    "Speed": 100,
-    "Mega" : true
+    "hasMega": true
   },
   {
     "id": 7,
@@ -172,23 +126,9 @@
     "Defense": 100,
     "spAttack": 85,
     "spDefense": 105,
-    "Speed": 78
-  },
-  {
-    "id": 155,
-    "name": "Mega Blastoise",
-    "type": [
-      "Water"
-    ],
-    
-    "hp": 79,
-    "Attack": 103,
-    "Defense": 120,
-    "spAttack": 135,
-    "spDefense": 115,
     "Speed": 78,
-    "Mega" : true
-   },
+    "hasMega": true
+  },
   {
     "id": 10,
     "name": "Caterpie",
@@ -275,23 +215,8 @@
     "Defense": 40,
     "spAttack": 45,
     "spDefense": 80,
-    "Speed": 75
-  },
-  {
-    "id": 156,
-    "name": "Mega Beedrill",
-    "type": [
-      "Bug",
-      "Poison"
-    ],
-    
-    "hp": 65,
-    "Attack": 150,
-    "Defense": 40,
-    "spAttack": 15,
-    "spDefense": 80,
-    "Speed": 145,
-    "Mega" : true
+    "Speed": 75,
+    "hasMega": true
   },
   {
     "id": 16,
@@ -336,23 +261,8 @@
     "Defense": 75,
     "spAttack": 70,
     "spDefense": 70,
-    "Speed": 101
-  },
-  {
-    "id": 157,
-    "name": "Mega Pidgeot",
-    "type": [
-      "Normal",
-      "Flying"
-    ],
-    
-    "hp": 83,
-    "Attack": 80,
-    "Defense": 80,
-    "spAttack": 135,
-    "spDefense": 80,
-    "Speed": 121,
-    "Mega" : true
+    "Speed": 101,
+    "hasMega": true
   },
   {
     "id": 19,
@@ -1026,22 +936,8 @@
     "Defense": 45,
     "spAttack": 135,
     "spDefense": 95,
-    "Speed": 120
-  },
-  {
-    "id": 158,
-    "name": "Mega Alakazam",
-    "type": [
-      "Psychic"
-    ],
-    
-    "hp": 55,
-    "Attack": 50,
-    "Defense": 65,
-    "spAttack": 175,
-    "spDefense": 105,
-    "Speed": 150,
-    "Mega" : true
+    "Speed": 120,
+    "hasMega": true
   },
   {
     "id": 66,
@@ -1261,23 +1157,8 @@
     "Defense": 110,
     "spAttack": 100,
     "spDefense": 80,
-    "Speed": 30
-  },
-  {
-    "id": 159,
-    "name": "Mega Slowbro",
-    "type": [
-      "Water",
-      "Psychic"
-    ],
-    
-    "hp": 95,
-    "Attack": 75,
-    "Defense": 180,
-    "spAttack": 130,
-    "spDefense": 80,
     "Speed": 30,
-    "Mega" : true
+    "hasMega": true
   },
   {
     "id": 81,
@@ -1311,7 +1192,7 @@
   },
   {
     "id": 83,
-    "name": "Farfetch'd",
+    "name": "Farfetchd",
     "type": [
       "Normal",
       "Flying"
@@ -1483,23 +1364,8 @@
     "Defense": 60,
     "spAttack": 130,
     "spDefense": 75,
-    "Speed": 110
-  },
-  {
-    "id": 160,
-    "name": "Mega Gengar",
-    "type": [
-      "Ghost",
-      "Poison"
-    ],
-    
-    "hp": 60,
-    "Attack": 65,
-    "Defense": 80,
-    "spAttack": 170,
-    "spDefense": 95,
-    "Speed": 130,
-    "Mega" : true
+    "Speed": 110,
+    "hasMega": true
   },
   {
     "id": 95,
@@ -1798,22 +1664,8 @@
     "Defense": 80,
     "spAttack": 40,
     "spDefense": 80,
-    "Speed": 90
-  },
-  {
-    "id": 161,
-    "name": "Mega Kangaskhan",
-    "type": [
-      "Normal"
-    ],
-    
-    "hp": 105,
-    "Attack": 125,
-    "Defense": 100,
-    "spAttack": 60,
-    "spDefense": 100,
-    "Speed": 100,
-    "Mega" : true
+    "Speed": 90,
+    "hasMega": true
   },
   {
     "id": 116,
@@ -1902,7 +1754,7 @@
   },
   {
     "id": 122,
-    "name": "Mr. Mime",
+    "name": "Mr Mime",
     "type": [
       "Psychic",
       "Fairy"
@@ -1985,23 +1837,8 @@
     "Defense": 100,
     "spAttack": 55,
     "spDefense": 70,
-    "Speed": 85
-  },
-  {
-    "id": 162,
-    "name": "Mega Pinsir",
-    "type": [
-      "Bug",
-      "Flying"
-    ],
-    
-    "hp": 65,
-    "Attack": 155,
-    "Defense": 120,
-    "spAttack": 65,
-    "spDefense": 90,
-    "Speed": 105,
-    "Mega" : true
+    "Speed": 85,
+    "hasMega": true
   },
   {
     "id": 128,
@@ -2044,23 +1881,8 @@
     "Defense": 79,
     "spAttack": 60,
     "spDefense": 100,
-    "Speed": 81
-  },
-  {
-    "id": 163,
-    "name": "Mega Gyarados",
-    "type": [
-      "Water",
-      "Dark"
-    ],
-    
-    "hp": 95,
-    "Attack": 155,
-    "Defense": 109,
-    "spAttack": 70,
-    "spDefense": 130,
     "Speed": 81,
-    "Mega" : true
+    "hasMega": true
   },
   {
     "id": 131,
@@ -2234,23 +2056,8 @@
     "Defense": 65,
     "spAttack": 60,
     "spDefense": 75,
-    "Speed": 130
-  },
-  {
-    "id": 164,
-    "name": "Mega Aerodactyl",
-    "type": [
-      "Rock",
-      "Flying"
-    ],
-    
-    "hp": 80,
-    "Attack": 135,
-    "Defense": 85,
-    "spAttack": 70,
-    "spDefense": 95,
-    "Speed": 150,
-    "Mega" : true
+    "Speed": 130,
+    "hasMega": true
   },
   {
     "id": 143,
@@ -2366,38 +2173,8 @@
     "Defense": 90,
     "spAttack": 154,
     "spDefense": 90,
-    "Speed": 130
-  },
-  {
-    "id": 165,
-    "name": "Mega Mewtwo X",
-    "type": [
-      "Psychic",
-      "Fighting"
-    ],
-    
-    "hp": 106,
-    "Attack": 190,
-    "Defense": 100,
-    "spAttack": 154,
-    "spDefense": 100,
     "Speed": 130,
-    "Mega" : true
-  },
-  {
-    "id": 166,
-    "name": "Mega Mewtwo Y",
-    "type": [
-      "Psychic"
-    ],
-    
-    "hp": 106,
-    "Attack": 150,
-    "Defense": 70,
-    "spAttack": 194,
-    "spDefense": 120,
-    "Speed": 140,
-    "Mega" : true
+    "hasMega": true
   },
   {
     "id": 151,
