@@ -1,5 +1,5 @@
 class Pokemon:
-    def __init__(self, id, name, type, hp, attack, defense, spAttack, spDefense, speed):
+    def __init__(self, id, name, type, hp, attack, defense, spAttack, spDefense, speed, hasMega):
         self.id = id
         self.name = name
         self.type = type
@@ -9,10 +9,21 @@ class Pokemon:
         self.spAttack = spAttack
         self.spDefense = spDefense
         self.speed = speed
+        try:
+            self.hasMega = hasMega
+        except KeyError:
+            self.hasMega = None
+
+
+
 
 
     @staticmethod
     def from_dict(source):
+        try:
+            hasMega = source.get("hasMega")
+        except KeyError:
+            hasMega = None
         return Pokemon(source.get("id"),
                        source.get("name"),
                        source.get("type"),
@@ -21,7 +32,8 @@ class Pokemon:
                        source.get("Defense"),
                        source.get("spAttack"),
                        source.get("spDefense"),
-                       source.get("Speed"))
+                       source.get("Speed"),
+                       hasMega)
 
     def to_dict(self):
         return {
@@ -33,5 +45,6 @@ class Pokemon:
             "defense" : self.defense,
             "spAttack" : self.spAttack,
             "spDefense" : self.spDefense,
-            "speed" : self.speed
+            "speed" : self.speed,
+            "hasMega" : self.hasMega
         }
