@@ -48,3 +48,13 @@ class Pokemon:
             "speed" : self.speed,
             "hasMega" : self.hasMega
         }
+    def print_poke(self):
+        print("Name:" , self.name,"\n"
+              "Type:" , self.type,"\n"
+              "HP:" , self.hp,"\n"
+              "Attack:" , self.attack,"\n"
+              "Defense:" , self.defense,"\n"
+              "Special Attack:" , self.spAttack,"\n"
+              "Special Defense:" , self.spDefense,"\n"
+              "Speed:" , self.speed,"\n"
+              "Has Mega:" , self.hasMega)
