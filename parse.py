@@ -154,7 +154,7 @@ def single_query(field, op, value):
     q = pokemon_ref.where(filter=FieldFilter(path, operator, val)).get()
     for doc in q:
         p = Pokemon.from_dict(source=doc)
-        print(p.to_dict())
+        print(p.print_poke())
 
 def and_query(lhs, rhs):
     # Map each token to its corresponding firestore name
