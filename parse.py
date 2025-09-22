@@ -3,6 +3,7 @@
 from google.cloud.firestore_v1 import FieldFilter, Or, And
 from pyparsing import Word, alphas, nums, Literal, ParseException
 import admin
+from poke_class import Pokemon
 
 _db = admin.db
 pokemon_ref = _db
@@ -150,8 +151,10 @@ def parse(line: str):
 def single_query(field, op, value):
     # Map each token to its corresponding firestore names
     path, operator, val = map_field_value(field, op, value)
-    q = pokemon_ref.where(filter=FieldFilter(path, operator, val))
-    print_docs(q.stream())
+    q = pokemon_ref.where(filter=FieldFilter(path, operator, val)).get()
+    for doc in q:
+        p = Pokemon.from_dict(source=doc)
+        print(p.to_dict())
 
 def and_query(lhs, rhs):
     # Map each token to its corresponding firestore name
@@ -159,8 +162,11 @@ def and_query(lhs, rhs):
     lfield, lop, lval = map_field_value(*lhs)
     rfield, rop, rval = map_field_value(*rhs)
     q = pokemon_ref.where(filter=FieldFilter(lfield, lop, lval)) \
-        .where(filter=FieldFilter(rfield, rop, rval))
-    print_docs(q.stream())
+        .where(filter=FieldFilter(rfield, rop, rval)).get()
+    for doc in q:
+        p = Pokemon.from_dict(source=doc)
+        print(p.to_dict())
+
 
 def or_query(lhs, rhs):
     # Map each token to its corresponding firestore name
@@ -170,8 +176,12 @@ def or_query(lhs, rhs):
     q = pokemon_ref.where(filter=Or([
         FieldFilter(lfield, lop, lval),
         FieldFilter(rfield, rop, rval),
-    ]))
-    print_docs(q.stream())
+    ])).get()
+    for doc in q:
+        p = Pokemon.from_dict(source=doc)
+        print(p.to_dict())
+
+    
 
 def mega_query(field, value):
     if field == 'mega':
