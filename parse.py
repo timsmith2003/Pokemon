@@ -175,7 +175,7 @@ def single_query(field, op, value):
     q = pokemon_ref.where(filter=FieldFilter(path, operator, val)).get()
     for doc in q:
         p = Pokemon.from_dict(source=doc)
-        print(p.to_dict())
+        p.print_poke()
 
 def and_query(lhs, rhs):
     # Map each token to its corresponding firestore name
@@ -186,7 +186,7 @@ def and_query(lhs, rhs):
         .where(filter=FieldFilter(rfield, rop, rval)).get()
     for doc in q:
         p = Pokemon.from_dict(source=doc)
-        print(p.to_dict())
+        p.print_poke()
 
 
 def or_query(lhs, rhs):
@@ -200,7 +200,7 @@ def or_query(lhs, rhs):
     ])).get()
     for doc in q:
         p = Pokemon.from_dict(source=doc)
-        print(p.to_dict())
+        p.print_poke()
 
     
 
@@ -362,3 +362,4 @@ def map_field_value(field, op, value):
 # Run program
 if __name__ == '__main__':
     query()
+
