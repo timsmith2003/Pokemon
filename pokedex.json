@@ -1,8 +1,10 @@
 [{
     "id": 1,
-    "name" : "Bulbasaur",
-    "type1" : "Grass",
-    "type2" : "Poison",
+    "name": "Bulbasaur",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
     "hp": 45,
     "Attack": 49,
     "Defense": 49,
@@ -13,8 +15,11 @@
   {
     "id": 2,
     "name": "Ivysaur",
-    "type1" : "Grass",
-    "type2" : "Poison",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    
     "hp": 60,
     "Attack": 62,
     "Defense": 63,
@@ -25,8 +30,10 @@
   {
     "id": 3,
     "name": "Venusaur",
-    "type1" : "Grass",
-    "type2" : "Poison",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
     "hp": 80,
     "Attack": 82,
     "Defense": 83,
@@ -38,7 +45,10 @@
   {
     "id": 4,
     "name": "Charmander",
-    "type1" : "Fire",
+    "type": [
+      "Fire"
+    ],
+    
     "hp": 39,
     "Attack": 52,
     "Defense": 43,
@@ -49,7 +59,10 @@
   {
     "id": 5,
     "name": "Charmeleon",
-    "type1" : "Fire",
+    "type": [
+      "Fire"
+    ],
+    
     "hp": 58,
     "Attack": 64,
     "Defense": 58,
@@ -60,8 +73,11 @@
   {
     "id": 6,
     "name": "Charizard",
-    "type1" : "Fire",
-    "type2" : "Flying",
+    "type": [
+      "Fire",
+      "Flying"
+    ],
+    
     "hp": 78,
     "Attack": 84,
     "Defense": 78,
@@ -73,7 +89,10 @@
   {
     "id": 7,
     "name": "Squirtle",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 44,
     "Attack": 48,
     "Defense": 65,
@@ -84,7 +103,10 @@
   {
     "id": 8,
     "name": "Wartortle",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 59,
     "Attack": 63,
     "Defense": 80,
@@ -95,7 +117,10 @@
   {
     "id": 9,
     "name": "Blastoise",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 79,
     "Attack": 83,
     "Defense": 100,
@@ -107,7 +132,10 @@
   {
     "id": 10,
     "name": "Caterpie",
-    "type1" : "Bug",
+    "type": [
+      "Bug"
+    ],
+    
     "hp": 45,
     "Attack": 30,
     "Defense": 35,
@@ -118,7 +146,10 @@
   {
     "id": 11,
     "name": "Metapod",
-    "type1" : "Bug",
+    "type": [
+      "Bug"
+    ],
+    
     "hp": 50,
     "Attack": 20,
     "Defense": 55,
@@ -129,8 +160,11 @@
   {
     "id": 12,
     "name": "Butterfree",
-    "type1" : "Bug",
-    "type2" : "Flying",
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    
     "hp": 60,
     "Attack": 45,
     "Defense": 50,
@@ -141,8 +175,11 @@
   {
     "id": 13,
     "name": "Weedle",
-    "type1" : "Bug",
-    "type2" : "Poison",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    
     "hp": 40,
     "Attack": 35,
     "Defense": 30,
@@ -153,8 +190,11 @@
   {
     "id": 14,
     "name": "Kakuna",
-    "type1" : "Bug",
-    "type2" : "Poison",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    
     "hp": 45,
     "Attack": 25,
     "Defense": 50,
@@ -165,8 +205,11 @@
   {
     "id": 15,
     "name": "Beedrill",
-    "type1" : "Bug",
-    "type2" : "Poison",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    
     "hp": 65,
     "Attack": 90,
     "Defense": 40,
@@ -178,8 +221,11 @@
   {
     "id": 16,
     "name": "Pidgey",
-    "type1" : "Normal",
-    "type2" : "Flying",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    
     "hp": 40,
     "Attack": 45,
     "Defense": 40,
@@ -190,8 +236,11 @@
   {
     "id": 17,
     "name": "Pidgeotto",
-    "type1" : "Normal",
-    "type2" : "Flying",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    
     "hp": 63,
     "Attack": 60,
     "Defense": 55,
@@ -202,8 +251,11 @@
   {
     "id": 18,
     "name": "Pidgeot",
-    "type1" : "Normal",
-    "type2" : "Flying",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    
     "hp": 83,
     "Attack": 80,
     "Defense": 75,
@@ -215,7 +267,10 @@
   {
     "id": 19,
     "name": "Rattata",
-    "type1" : "Normal",
+    "type": [
+      "Normal"
+    ],
+    
     "hp": 30,
     "Attack": 56,
     "Defense": 35,
@@ -226,7 +281,10 @@
   {
     "id": 20,
     "name": "Raticate",
-    "type1" : "Normal",
+    "type": [
+      "Normal"
+    ],
+    
     "hp": 55,
     "Attack": 81,
     "Defense": 60,
@@ -237,8 +295,11 @@
   {
     "id": 21,
     "name": "Spearow",
-    "type1" : "Normal",
-    "type2" : "Flying",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    
     "hp": 40,
     "Attack": 60,
     "Defense": 30,
@@ -249,8 +310,11 @@
   {
     "id": 22,
     "name": "Fearow",
-    "type1" : "Normal",
-    "type2" : "Flying",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    
     "hp": 65,
     "Attack": 90,
     "Defense": 65,
@@ -261,7 +325,10 @@
   {
     "id": 23,
     "name": "Ekans",
-    "type1" : "Poison",
+    "type": [
+      "Poison"
+    ],
+    
     "hp": 35,
     "Attack": 60,
     "Defense": 44,
@@ -272,7 +339,10 @@
   {
     "id": 24,
     "name": "Arbok",
-    "type1" : "Poison",
+    "type": [
+      "Poison"
+    ],
+    
     "hp": 60,
     "Attack": 95,
     "Defense": 69,
@@ -283,7 +353,10 @@
   {
     "id": 25,
     "name": "Pikachu",
-    "type1" : "Electric",
+    "type": [
+      "Electric"
+    ],
+    
     "hp": 35,
     "Attack": 55,
     "Defense": 40,
@@ -294,7 +367,10 @@
   {
     "id": 26,
     "name": "Raichu",
-    "type1" : "Electric",
+    "type": [
+      "Electric"
+    ],
+    
     "hp": 60,
     "Attack": 90,
     "Defense": 55,
@@ -305,7 +381,10 @@
   {
     "id": 27,
     "name": "Sandshrew",
-    "type1" : "Ground",
+    "type": [
+      "Ground"
+    ],
+    
     "hp": 50,
     "Attack": 75,
     "Defense": 85,
@@ -316,7 +395,10 @@
   {
     "id": 28,
     "name": "Sandslash",
-    "type1" : "Ground",
+    "type": [
+      "Ground"
+    ],
+    
     "hp": 75,
     "Attack": 100,
     "Defense": 110,
@@ -327,7 +409,10 @@
   {
     "id": 29,
     "name": "Nidoran♀",
-    "type1" : "Poison",
+    "type": [
+      "Poison"
+    ],
+    
     "hp": 55,
     "Attack": 47,
     "Defense": 52,
@@ -338,7 +423,10 @@
   {
     "id": 30,
     "name": "Nidorina",
-    "type1" : "Poison",
+    "type": [
+      "Poison"
+    ],
+    
     "hp": 70,
     "Attack": 62,
     "Defense": 67,
@@ -349,8 +437,11 @@
   {
     "id": 31,
     "name": "Nidoqueen",
-    "type1" : "Poison",
-    "type2" : "Ground",
+    "type": [
+      "Poison",
+      "Ground"
+    ],
+    
     "hp": 90,
     "Attack": 92,
     "Defense": 87,
@@ -361,7 +452,10 @@
   {
     "id": 32,
     "name": "Nidoran♂",
-    "type1" : "Poison",
+    "type": [
+      "Poison"
+    ],
+    
     "hp": 46,
     "Attack": 57,
     "Defense": 40,
@@ -372,7 +466,10 @@
   {
     "id": 33,
     "name": "Nidorino",
-    "type1" : "Poison",
+    "type": [
+      "Poison"
+    ],
+    
     "hp": 61,
     "Attack": 72,
     "Defense": 57,
@@ -383,8 +480,11 @@
   {
     "id": 34,
     "name": "Nidoking",
-    "type1" : "Poison",
-    "type2" : "Ground",
+    "type": [
+      "Poison",
+      "Ground"
+    ],
+    
     "hp": 81,
     "Attack": 102,
     "Defense": 77,
@@ -395,7 +495,10 @@
   {
     "id": 35,
     "name": "Clefairy",
-    "type1" : "Fairy",
+    "type": [
+      "Fairy"
+    ],
+    
     "hp": 70,
     "Attack": 45,
     "Defense": 48,
@@ -406,7 +509,10 @@
   {
     "id": 36,
     "name": "Clefable",
-    "type1" : "Fairy",
+    "type": [
+      "Fairy"
+    ],
+    
     "hp": 95,
     "Attack": 70,
     "Defense": 73,
@@ -417,7 +523,10 @@
   {
     "id": 37,
     "name": "Vulpix",
-    "type1" : "Fire",
+    "type": [
+      "Fire"
+    ],
+    
     "hp": 38,
     "Attack": 41,
     "Defense": 40,
@@ -428,7 +537,10 @@
   {
     "id": 38,
     "name": "Ninetales",
-    "type1" : "Fire",
+    "type": [
+      "Fire"
+    ],
+    
     "hp": 73,
     "Attack": 76,
     "Defense": 75,
@@ -439,8 +551,11 @@
   {
     "id": 39,
     "name": "Jigglypuff",
-    "type1" : "Normal",
-    "type2" : "Fairy",
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
+    
     "hp": 115,
     "Attack": 45,
     "Defense": 20,
@@ -451,8 +566,11 @@
   {
     "id": 40,
     "name": "Wigglytuff",
-    "type1" : "Normal",
-    "type2" : "Fairy",
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
+    
     "hp": 140,
     "Attack": 70,
     "Defense": 45,
@@ -463,8 +581,11 @@
   {
     "id": 41,
     "name": "Zubat",
-    "type1" : "Normal",
-    "type2" : "Fairy",
+    "type": [
+      "Poison",
+      "Flying"
+    ],
+    
     "hp": 40,
     "Attack": 45,
     "Defense": 35,
@@ -475,8 +596,11 @@
   {
     "id": 42,
     "name": "Golbat",
-    "type1" : "Normal",
-    "type2" : "Fairy",
+    "type": [
+      "Poison",
+      "Flying"
+    ],
+    
     "hp": 75,
     "Attack": 80,
     "Defense": 70,
@@ -487,8 +611,11 @@
   {
     "id": 43,
     "name": "Oddish",
-    "type1" : "Grass",
-    "type2" : "Poison",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    
     "hp": 45,
     "Attack": 50,
     "Defense": 55,
@@ -499,8 +626,11 @@
   {
     "id": 44,
     "name": "Gloom",
-    "type1" : "Grass",
-    "type2" : "Poison",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    
     "hp": 60,
     "Attack": 65,
     "Defense": 70,
@@ -511,8 +641,11 @@
   {
     "id": 45,
     "name": "Vileplume",
-    "type1" : "Grass",
-    "type2" : "Poison",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    
     "hp": 75,
     "Attack": 80,
     "Defense": 85,
@@ -523,8 +656,11 @@
   {
     "id": 46,
     "name": "Paras",
-    "type1" : "Bug",
-    "type2" : "Grass",
+    "type": [
+      "Bug",
+      "Grass"
+    ],
+    
     "hp": 35,
     "Attack": 70,
     "Defense": 55,
@@ -535,8 +671,11 @@
   {
     "id": 47,
     "name": "Parasect",
-    "type1" : "Bug",
-    "type2" : "Grass",
+    "type": [
+      "Bug",
+      "Grass"
+    ],
+    
     "hp": 60,
     "Attack": 95,
     "Defense": 80,
@@ -547,8 +686,11 @@
   {
     "id": 48,
     "name": "Venonat",
-    "type1" : "Bug",
-    "type2" : "Poison",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    
     "hp": 60,
     "Attack": 55,
     "Defense": 50,
@@ -559,8 +701,11 @@
   {
     "id": 49,
     "name": "Venomoth",
-    "type1" : "Bug",
-    "type2" : "Poison",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    
     "hp": 70,
     "Attack": 65,
     "Defense": 60,
@@ -571,7 +716,10 @@
   {
     "id": 50,
     "name": "Diglett",
-    "type1" : "Ground",
+    "type": [
+      "Ground"
+    ],
+    
     "hp": 10,
     "Attack": 55,
     "Defense": 25,
@@ -582,7 +730,10 @@
   {
     "id": 51,
     "name": "Dugtrio",
-    "type1" : "Ground",
+    "type": [
+      "Ground"
+    ],
+    
     "hp": 35,
     "Attack": 100,
     "Defense": 50,
@@ -593,7 +744,10 @@
   {
     "id": 52,
     "name": "Meowth",
-    "type1" : "Normal",
+    "type": [
+      "Normal"
+    ],
+    
     "hp": 40,
     "Attack": 45,
     "Defense": 35,
@@ -604,7 +758,10 @@
   {
     "id": 53,
     "name": "Persian",
-    "type1" : "Normal",
+    "type": [
+      "Normal"
+    ],
+    
     "hp": 65,
     "Attack": 70,
     "Defense": 60,
@@ -615,7 +772,10 @@
   {
     "id": 54,
     "name": "Psyduck",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 50,
     "Attack": 52,
     "Defense": 48,
@@ -626,7 +786,10 @@
   {
     "id": 55,
     "name": "Golduck",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 80,
     "Attack": 82,
     "Defense": 78,
@@ -637,7 +800,10 @@
   {
     "id": 56,
     "name": "Mankey",
-    "type1" : "Fighting",
+    "type": [
+      "Fighting"
+    ],
+    
     "hp": 40,
     "Attack": 80,
     "Defense": 35,
@@ -648,7 +814,10 @@
   {
     "id": 57,
     "name": "Primeape",
-    "type1" : "Fighting",
+    "type": [
+      "Fighting"
+    ],
+    
     "hp": 65,
     "Attack": 105,
     "Defense": 60,
@@ -659,7 +828,10 @@
   {
     "id": 58,
     "name": "Growlithe",
-    "type1" : "Fire",
+    "type": [
+      "Fire"
+    ],
+    
     "hp": 55,
     "Attack": 70,
     "Defense": 45,
@@ -670,7 +842,10 @@
   {
     "id": 59,
     "name": "Arcanine",
-    "type1" : "Fire",
+    "type": [
+      "Fire"
+    ],
+    
     "hp": 90,
     "Attack": 110,
     "Defense": 80,
@@ -681,7 +856,10 @@
   {
     "id": 60,
     "name": "Poliwag",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 40,
     "Attack": 50,
     "Defense": 40,
@@ -692,7 +870,10 @@
   {
     "id": 61,
     "name": "Poliwhirl",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 65,
     "Attack": 65,
     "Defense": 65,
@@ -703,8 +884,11 @@
   {
     "id": 62,
     "name": "Poliwrath",
-    "type1" : "Water",
-    "type2" : "Fighting",
+    "type": [
+      "Water",
+      "Fighting"
+    ],
+    
     "hp": 90,
     "Attack": 95,
     "Defense": 95,
@@ -715,7 +899,10 @@
   {
     "id": 63,
     "name": "Abra",
-    "type1" : "Psychic",
+    "type": [
+      "Psychic"
+    ],
+    
     "hp": 25,
     "Attack": 20,
     "Defense": 15,
@@ -726,7 +913,10 @@
   {
     "id": 64,
     "name": "Kadabra",
-    "type1" : "Psychic",
+    "type": [
+      "Psychic"
+    ],
+    
     "hp": 40,
     "Attack": 35,
     "Defense": 30,
@@ -737,7 +927,10 @@
   {
     "id": 65,
     "name": "Alakazam",
-    "type1" : "Psychic",
+    "type": [
+      "Psychic"
+    ],
+    
     "hp": 55,
     "Attack": 50,
     "Defense": 45,
@@ -749,7 +942,10 @@
   {
     "id": 66,
     "name": "Machop",
-    "type1" : "Fighting",
+    "type": [
+      "Fighting"
+    ],
+    
     "hp": 70,
     "Attack": 80,
     "Defense": 50,
@@ -760,7 +956,10 @@
   {
     "id": 67,
     "name": "Machoke",
-    "type1" : "Fighting",
+    "type": [
+      "Fighting"
+    ],
+    
     "hp": 80,
     "Attack": 100,
     "Defense": 70,
@@ -771,7 +970,10 @@
   {
     "id": 68,
     "name": "Machamp",
-    "type1" : "Fighting",
+    "type": [
+      "Fighting"
+    ],
+    
     "hp": 90,
     "Attack": 130,
     "Defense": 80,
@@ -782,8 +984,11 @@
   {
     "id": 69,
     "name": "Bellsprout",
-    "type1" : "Grass",
-    "type2" : "Poison",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    
     "hp": 50,
     "Attack": 75,
     "Defense": 35,
@@ -794,8 +999,11 @@
   {
     "id": 70,
     "name": "Weepinbell",
-    "type1" : "Grass",
-    "type2" : "Poison",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    
     "hp": 65,
     "Attack": 90,
     "Defense": 50,
@@ -806,8 +1014,11 @@
   {
     "id": 71,
     "name": "Victreebel",
-    "type1" : "Grass",
-    "type2" : "Poison",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    
     "hp": 80,
     "Attack": 105,
     "Defense": 65,
@@ -818,8 +1029,11 @@
   {
     "id": 72,
     "name": "Tentacool",
-    "type1" : "Water",
-    "type2" : "Poison",
+    "type": [
+      "Water",
+      "Poison"
+    ],
+    
     "hp": 40,
     "Attack": 40,
     "Defense": 35,
@@ -830,8 +1044,11 @@
   {
     "id": 73,
     "name": "Tentacruel",
-    "type1" : "Water",
-    "type2" : "Poison",
+    "type": [
+      "Water",
+      "Poison"
+    ],
+    
     "hp": 80,
     "Attack": 70,
     "Defense": 65,
@@ -842,8 +1059,11 @@
   {
     "id": 74,
     "name": "Geodude",
-    "type1" : "Rock",
-    "type2" : "Ground",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    
     "hp": 40,
     "Attack": 80,
     "Defense": 100,
@@ -854,8 +1074,11 @@
   {
     "id": 75,
     "name": "Graveler",
-    "type1" : "Rock",
-    "type2" : "Ground",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    
     "hp": 55,
     "Attack": 95,
     "Defense": 115,
@@ -866,8 +1089,11 @@
   {
     "id": 76,
     "name": "Golem",
-    "type1" : "Rock",
-    "type2" : "Ground",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    
     "hp": 80,
     "Attack": 120,
     "Defense": 130,
@@ -878,7 +1104,10 @@
   {
     "id": 77,
     "name": "Ponyta",
-    "type1" : "Fire",
+    "type": [
+      "Fire"
+    ],
+    
     "hp": 50,
     "Attack": 85,
     "Defense": 55,
@@ -889,7 +1118,10 @@
   {
     "id": 78,
     "name": "Rapidash",
-    "type1" : "Fire",
+    "type": [
+      "Fire"
+    ],
+    
     "hp": 65,
     "Attack": 100,
     "Defense": 70,
@@ -900,8 +1132,11 @@
   {
     "id": 79,
     "name": "Slowpoke",
-    "type1" : "Water",
-    "type2" : "Psychic",
+    "type": [
+      "Water",
+      "Psychic"
+    ],
+    
     "hp": 90,
     "Attack": 65,
     "Defense": 65,
@@ -912,8 +1147,11 @@
   {
     "id": 80,
     "name": "Slowbro",
-    "type1" : "Water",
-    "type2" : "Psychic",
+    "type": [
+      "Water",
+      "Psychic"
+    ],
+    
     "hp": 95,
     "Attack": 75,
     "Defense": 110,
@@ -925,8 +1163,11 @@
   {
     "id": 81,
     "name": "Magnemite",
-    "type1" : "Electric",
-    "type2" : "Steel",
+    "type": [
+      "Electric",
+      "Steel"
+    ],
+    
     "hp": 25,
     "Attack": 35,
     "Defense": 70,
@@ -937,8 +1178,11 @@
   {
     "id": 82,
     "name": "Magneton",
-    "type1" : "Electric",
-    "type2" : "Steel",
+    "type": [
+      "Electric",
+      "Steel"
+    ],
+    
     "hp": 50,
     "Attack": 60,
     "Defense": 95,
@@ -949,8 +1193,11 @@
   {
     "id": 83,
     "name": "Farfetchd",
-    "type1" : "Normal",
-    "type2" : "Flying",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    
     "hp": 52,
     "Attack": 90,
     "Defense": 55,
@@ -961,8 +1208,11 @@
   {
     "id": 84,
     "name": "Doduo",
-    "type1" : "Normal",
-    "type2" : "Flying",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    
     "hp": 35,
     "Attack": 85,
     "Defense": 45,
@@ -973,8 +1223,11 @@
   {
     "id": 85,
     "name": "Dodrio",
-    "type1" : "Normal",
-    "type2" : "Flying",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    
     "hp": 60,
     "Attack": 110,
     "Defense": 70,
@@ -985,7 +1238,10 @@
   {
     "id": 86,
     "name": "Seel",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 65,
     "Attack": 45,
     "Defense": 55,
@@ -996,8 +1252,11 @@
   {
     "id": 87,
     "name": "Dewgong",
-    "type1" : "Water",
-    "type2" : "Ice",
+    "type": [
+      "Water",
+      "Ice"
+    ],
+    
     "hp": 90,
     "Attack": 70,
     "Defense": 80,
@@ -1008,7 +1267,10 @@
   {
     "id": 88,
     "name": "Grimer",
-    "type1" : "Poison",
+    "type": [
+      "Poison"
+    ],
+    
     "hp": 80,
     "Attack": 80,
     "Defense": 50,
@@ -1019,7 +1281,10 @@
   {
     "id": 89,
     "name": "Muk",
-    "type1" : "Poison",
+    "type": [
+      "Poison"
+    ],
+    
     "hp": 105,
     "Attack": 105,
     "Defense": 75,
@@ -1030,7 +1295,10 @@
   {
     "id": 90,
     "name": "Shellder",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 30,
     "Attack": 65,
     "Defense": 100,
@@ -1041,8 +1309,11 @@
   {
     "id": 91,
     "name": "Cloyster",
-    "type1" : "Water",
-    "type2" : "Ice",
+    "type": [
+      "Water",
+      "Ice"
+    ],
+    
     "hp": 50,
     "Attack": 95,
     "Defense": 180,
@@ -1053,8 +1324,11 @@
   {
     "id": 92,
     "name": "Gastly",
-    "type1" : "Ghost",
-    "type2" : "Poison",
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
+    
     "hp": 30,
     "Attack": 35,
     "Defense": 30,
@@ -1065,8 +1339,11 @@
   {
     "id": 93,
     "name": "Haunter",
-    "type1" : "Ghost",
-    "type2" : "Poison",
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
+    
     "hp": 45,
     "Attack": 50,
     "Defense": 45,
@@ -1077,8 +1354,11 @@
   {
     "id": 94,
     "name": "Gengar",
-    "type1" : "Ghost",
-    "type2" : "Poison",
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
+    
     "hp": 60,
     "Attack": 65,
     "Defense": 60,
@@ -1090,8 +1370,11 @@
   {
     "id": 95,
     "name": "Onix",
-    "type1" : "Rock",
-    "type2" : "Ground",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    
     "hp": 35,
     "Attack": 45,
     "Defense": 160,
@@ -1102,7 +1385,10 @@
   {
     "id": 96,
     "name": "Drowzee",
-    "type1" : "Psychic",
+    "type": [
+      "Psychic"
+    ],
+    
     "hp": 60,
     "Attack": 48,
     "Defense": 45,
@@ -1113,7 +1399,10 @@
   {
     "id": 97,
     "name": "Hypno",
-    "type1" : "Psychic",
+    "type": [
+      "Psychic"
+    ],
+    
     "hp": 85,
     "Attack": 73,
     "Defense": 70,
@@ -1124,7 +1413,10 @@
   {
     "id": 98,
     "name": "Krabby",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 30,
     "Attack": 105,
     "Defense": 90,
@@ -1135,7 +1427,10 @@
   {
     "id": 99,
     "name": "Kingler",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 55,
     "Attack": 130,
     "Defense": 115,
@@ -1146,7 +1441,10 @@
   {
     "id": 100,
     "name": "Voltorb",
-    "type1" : "Electric",
+    "type": [
+      "Electric"
+    ],
+    
     "hp": 40,
     "Attack": 30,
     "Defense": 50,
@@ -1157,7 +1455,10 @@
   {
     "id": 101,
     "name": "Electrode",
-    "type1" : "Electric",
+    "type": [
+      "Electric"
+    ],
+    
     "hp": 60,
     "Attack": 50,
     "Defense": 70,
@@ -1168,8 +1469,11 @@
   {
     "id": 102,
     "name": "Exeggcute",
-    "type1" : "Grass",
-    "type2" : "Psychic",
+    "type": [
+      "Grass",
+      "Psychic"
+    ],
+    
     "hp": 60,
     "Attack": 40,
     "Defense": 80,
@@ -1180,8 +1484,11 @@
   {
     "id": 103,
     "name": "Exeggutor",
-    "type1" : "Grass",
-    "type2" : "Psychic",
+    "type": [
+      "Grass",
+      "Psychic"
+    ],
+    
     "hp": 95,
     "Attack": 95,
     "Defense": 85,
@@ -1192,7 +1499,10 @@
   {
     "id": 104,
     "name": "Cubone",
-    "type1" : "Ground",
+    "type": [
+      "Ground"
+    ],
+    
     "hp": 50,
     "Attack": 50,
     "Defense": 95,
@@ -1203,7 +1513,10 @@
   {
     "id": 105,
     "name": "Marowak",
-    "type1" : "Ground",
+    "type": [
+      "Ground"
+    ],
+    
     "hp": 60,
     "Attack": 80,
     "Defense": 110,
@@ -1214,7 +1527,10 @@
   {
     "id": 106,
     "name": "Hitmonlee",
-    "type1" : "Fighting",
+    "type": [
+      "Fighting"
+    ],
+    
     "hp": 50,
     "Attack": 120,
     "Defense": 53,
@@ -1225,7 +1541,10 @@
   {
     "id": 107,
     "name": "Hitmonchan",
-    "type1" : "Fighting",
+    "type": [
+      "Fighting"
+    ],
+    
     "hp": 50,
     "Attack": 105,
     "Defense": 79,
@@ -1236,7 +1555,10 @@
   {
     "id": 108,
     "name": "Lickitung",
-    "type1" : "Normal",
+    "type": [
+      "Normal"
+    ],
+    
     "hp": 90,
     "Attack": 55,
     "Defense": 75,
@@ -1247,7 +1569,10 @@
   {
     "id": 109,
     "name": "Koffing",
-    "type1" : "Poison",
+    "type": [
+      "Poison"
+    ],
+    
     "hp": 40,
     "Attack": 65,
     "Defense": 95,
@@ -1258,7 +1583,10 @@
   {
     "id": 110,
     "name": "Weezing",
-    "type1" : "Poison",
+    "type": [
+      "Poison"
+    ],
+    
     "hp": 65,
     "Attack": 90,
     "Defense": 120,
@@ -1269,8 +1597,11 @@
   {
     "id": 111,
     "name": "Rhyhorn",
-    "type1" : "Ground",
-    "type2" : "Rock",
+    "type": [
+      "Ground",
+      "Rock"
+    ],
+    
     "hp": 80,
     "Attack": 85,
     "Defense": 95,
@@ -1281,8 +1612,11 @@
   {
     "id": 112,
     "name": "Rhydon",
-    "type1" : "Ground",
-    "type2" : "Rock",
+    "type": [
+      "Ground",
+      "Rock"
+    ],
+    
     "hp": 105,
     "Attack": 130,
     "Defense": 120,
@@ -1293,7 +1627,10 @@
   {
     "id": 113,
     "name": "Chansey",
-    "type1" : "Normal",
+    "type": [
+      "Normal"
+    ],
+    
     "hp": 250,
     "Attack": 5,
     "Defense": 5,
@@ -1304,7 +1641,10 @@
   {
     "id": 114,
     "name": "Tangela",
-    "type1" : "Grass",
+    "type": [
+      "Grass"
+    ],
+    
     "hp": 65,
     "Attack": 55,
     "Defense": 115,
@@ -1315,7 +1655,10 @@
   {
     "id": 115,
     "name": "Kangaskhan",
-    "type1" : "Normal",
+    "type": [
+      "Normal"
+    ],
+    
     "hp": 105,
     "Attack": 95,
     "Defense": 80,
@@ -1327,7 +1670,10 @@
   {
     "id": 116,
     "name": "Horsea",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 30,
     "Attack": 40,
     "Defense": 70,
@@ -1338,7 +1684,10 @@
   {
     "id": 117,
     "name": "Seadra",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 55,
     "Attack": 65,
     "Defense": 95,
@@ -1349,7 +1698,10 @@
   {
     "id": 118,
     "name": "Goldeen",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 45,
     "Attack": 67,
     "Defense": 60,
@@ -1360,7 +1712,10 @@
   {
     "id": 119,
     "name": "Seaking",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 80,
     "Attack": 92,
     "Defense": 65,
@@ -1371,7 +1726,10 @@
   {
     "id": 120,
     "name": "Staryu",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 30,
     "Attack": 45,
     "Defense": 55,
@@ -1382,8 +1740,11 @@
   {
     "id": 121,
     "name": "Starmie",
-    "type1" : "Water",
-    "type2" : "Psychic",
+    "type": [
+      "Water",
+      "Psychic"
+    ],
+    
     "hp": 60,
     "Attack": 75,
     "Defense": 85,
@@ -1394,8 +1755,11 @@
   {
     "id": 122,
     "name": "Mr Mime",
-    "type1" : "Psychic",
-    "type2" : "Fairy",
+    "type": [
+      "Psychic",
+      "Fairy"
+    ],
+    
     "hp": 40,
     "Attack": 45,
     "Defense": 65,
@@ -1406,8 +1770,11 @@
   {
     "id": 123,
     "name": "Scyther",
-    "type1" : "Bug",
-    "type2" : "Flying",
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    
     "hp": 70,
     "Attack": 110,
     "Defense": 80,
@@ -1418,8 +1785,11 @@
   {
     "id": 124,
     "name": "Jynx",
-    "type1" : "Ice",
-    "type2" : "Psychic",
+    "type": [
+      "Ice",
+      "Psychic"
+    ],
+    
     "hp": 65,
     "Attack": 50,
     "Defense": 35,
@@ -1430,7 +1800,10 @@
   {
     "id": 125,
     "name": "Electabuzz",
-    "type1" : "Electric",
+    "type": [
+      "Electric"
+    ],
+    
     "hp": 65,
     "Attack": 83,
     "Defense": 57,
@@ -1441,7 +1814,10 @@
   {
     "id": 126,
     "name": "Magmar",
-    "type1" : "Fire",
+    "type": [
+      "Fire"
+    ],
+    
     "hp": 65,
     "Attack": 95,
     "Defense": 57,
@@ -1452,7 +1828,10 @@
   {
     "id": 127,
     "name": "Pinsir",
-    "type1" : "Bug",
+    "type": [
+      "Bug"
+    ],
+    
     "hp": 65,
     "Attack": 125,
     "Defense": 100,
@@ -1464,7 +1843,10 @@
   {
     "id": 128,
     "name": "Tauros",
-    "type1" : "Normal",
+    "type": [
+      "Normal"
+    ],
+    
     "hp": 75,
     "Attack": 100,
     "Defense": 95,
@@ -1475,7 +1857,10 @@
   {
     "id": 129,
     "name": "Magikarp",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 20,
     "Attack": 10,
     "Defense": 55,
@@ -1486,8 +1871,11 @@
   {
     "id": 130,
     "name": "Gyarados",
-    "type1" : "Water",
-    "type2" : "Flying",
+    "type": [
+      "Water",
+      "Flying"
+    ],
+    
     "hp": 95,
     "Attack": 125,
     "Defense": 79,
@@ -1499,8 +1887,11 @@
   {
     "id": 131,
     "name": "Lapras",
-    "type1" : "Water",
-    "type2" : "Ice",
+    "type": [
+      "Water",
+      "Ice"
+    ],
+    
     "hp": 130,
     "Attack": 85,
     "Defense": 80,
@@ -1511,7 +1902,10 @@
   {
     "id": 132,
     "name": "Ditto",
-    "type1" : "Normal",
+    "type": [
+      "Normal"
+    ],
+    
     "hp": 48,
     "Attack": 48,
     "Defense": 48,
@@ -1522,7 +1916,10 @@
   {
     "id": 133,
     "name": "Eevee",
-    "type1" : "Normal",
+    "type": [
+      "Normal"
+    ],
+    
     "hp": 55,
     "Attack": 55,
     "Defense": 50,
@@ -1533,7 +1930,10 @@
   {
     "id": 134,
     "name": "Vaporeon",
-    "type1" : "Water",
+    "type": [
+      "Water"
+    ],
+    
     "hp": 130,
     "Attack": 65,
     "Defense": 60,
@@ -1544,7 +1944,10 @@
   {
     "id": 135,
     "name": "Jolteon",
-    "type1" : "Electric",
+    "type": [
+      "Electric"
+    ],
+    
     "hp": 65,
     "Attack": 65,
     "Defense": 60,
@@ -1555,7 +1958,10 @@
   {
     "id": 136,
     "name": "Flareon",
-    "type1" : "Fire",
+    "type": [
+      "Fire"
+    ],
+    
     "hp": 65,
     "Attack": 130,
     "Defense": 60,
@@ -1566,7 +1972,10 @@
   {
     "id": 137,
     "name": "Porygon",
-    "type1" : "Normal",
+    "type": [
+      "Normal"
+    ],
+    
     "hp": 65,
     "Attack": 60,
     "Defense": 70,
@@ -1577,8 +1986,11 @@
   {
     "id": 138,
     "name": "Omanyte",
-    "type1" : "Rock",
-    "type2" : "Water",
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    
     "hp": 35,
     "Attack": 40,
     "Defense": 100,
@@ -1589,8 +2001,11 @@
   {
     "id": 139,
     "name": "Omastar",
-    "type1" : "Rock",
-    "type2" : "Water",
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    
     "hp": 70,
     "Attack": 60,
     "Defense": 125,
@@ -1601,8 +2016,11 @@
   {
     "id": 140,
     "name": "Kabuto",
-    "type1" : "Rock",
-    "type2" : "Water",
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    
     "hp": 30,
     "Attack": 80,
     "Defense": 90,
@@ -1613,8 +2031,11 @@
   {
     "id": 141,
     "name": "Kabutops",
-    "type1" : "Rock",
-    "type2" : "Water",
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    
     "hp": 60,
     "Attack": 115,
     "Defense": 105,
@@ -1625,8 +2046,11 @@
   {
     "id": 142,
     "name": "Aerodactyl",
-    "type1" : "Rock",
-    "type2" : "Flying",
+    "type": [
+      "Rock",
+      "Flying"
+    ],
+    
     "hp": 80,
     "Attack": 105,
     "Defense": 65,
@@ -1638,7 +2062,10 @@
   {
     "id": 143,
     "name": "Snorlax",
-    "type1" : "Normal",
+    "type": [
+      "Normal"
+    ],
+    
     "hp": 160,
     "Attack": 110,
     "Defense": 65,
@@ -1649,8 +2076,11 @@
   {
     "id": 144,
     "name": "Articuno",
-    "type1" : "Ice",
-    "type2" : "Flying",
+    "type": [
+      "Ice",
+      "Flying"
+    ],
+    
     "hp": 90,
     "Attack": 85,
     "Defense": 100,
@@ -1661,8 +2091,11 @@
   {
     "id": 145,
     "name": "Zapdos",
-    "type1" : "Electric",
-    "type2" : "Flying",
+    "type": [
+      "Electric",
+      "Flying"
+    ],
+    
     "hp": 90,
     "Attack": 90,
     "Defense": 85,
@@ -1673,8 +2106,11 @@
   {
     "id": 146,
     "name": "Moltres",
-    "type1" : "Fire",
-    "type2" : "Flying",
+    "type": [
+      "Fire",
+      "Flying"
+    ],
+    
     "hp": 90,
     "Attack": 100,
     "Defense": 90,
@@ -1685,7 +2121,10 @@
   {
     "id": 147,
     "name": "Dratini",
-    "type1" : "Dragon",
+    "type": [
+      "Dragon"
+    ],
+    
     "hp": 41,
     "Attack": 64,
     "Defense": 45,
@@ -1696,7 +2135,10 @@
   {
     "id": 148,
     "name": "Dragonair",
-    "type1" : "Dragon",
+    "type": [
+      "Dragon"
+    ],
+    
     "hp": 61,
     "Attack": 84,
     "Defense": 65,
@@ -1707,8 +2149,11 @@
   {
     "id": 149,
     "name": "Dragonite",
-    "type1" : "Dragon",
-    "type2" : "Flying",
+    "type": [
+      "Dragon",
+      "Flying"
+    ],
+    
     "hp": 91,
     "Attack": 134,
     "Defense": 95,
@@ -1719,7 +2164,10 @@
   {
     "id": 150,
     "name": "Mewtwo",
-    "type1" : "Psychic",
+    "type": [
+      "Psychic"
+    ],
+    
     "hp": 106,
     "Attack": 110,
     "Defense": 90,
@@ -1731,7 +2179,10 @@
   {
     "id": 151,
     "name": "Mew",
-    "type1" : "Psychic",
+    "type": [
+      "Psychic"
+    ],
+    
     "hp": 100,
     "Attack": 100,
     "Defense": 100,
