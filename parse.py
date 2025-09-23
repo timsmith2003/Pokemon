@@ -161,7 +161,6 @@ def and_query(lhs, rhs):
     lfield, lop, lval = map_field_value(*lhs)
     rfield, rop, rval = map_field_value(*rhs)
     if lfield == 'type' and rfield == 'type':
-        first_group = []
         q = pokemon_ref.where(filter=FieldFilter(lfield, lop, lval)).get()
         for doc in q:
             p = Pokemon.from_dict(source=doc)
