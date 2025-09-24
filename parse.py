@@ -42,8 +42,6 @@ mega_list = ['Venusaur', 'Blastoise', 'Charizard', 'Gyarados', 'Pidgeot', 'Beedr
 # 7) Number and/or Name - text = int and/or text = text
 # 8) number and/or HP - text = int and/or text = int
 
-#TODO:
-#mega support
 
 def parse(line: str):
     # Normalize
@@ -164,7 +162,10 @@ def parse(line: str):
     except ParseException:
         pass
 
-    raise SyntaxError("Invalid Query Syntax: query doesn't match possible grammars")
+    raise SyntaxError("Invalid Query Syntax: query doesn't match possible grammars. \n"
+                      "Possible grammars include: \n 'text =/is text', 'text =/is integer, "
+                      "'text > integer', \n 'text < integer', or 'text =/is text text' ")
+
 
 
 #What is the structure of a query call?
@@ -209,38 +210,6 @@ def or_query(lhs, rhs):
         p = Pokemon.from_dict(source=doc)
         p.print_poke()
 
-    
-
-# def mega_query(field, value):
-#     if field == 'mega':
-#         field = 'hasMega'
-#     q = pokemon_ref.where(filter = FieldFilter(field, value))
-#     print_docs(q.stream())
-
-
-# Handles output of firestore data in the console
-# def print_docs(docs):
-#     flag = False
-#     for doc in docs:
-#         flag = True
-#         # necessary firestore thing I don't really understand but is probably obvious if I took the time to read
-#         d = doc.to_dict()
-#         name = (d['name'])
-#         types = d.get('type') or []
-#         hp = (d['hp'])
-#         attack = d(['attack'])
-#         defense = (d['defense'])
-#         speed = (d['speed'])
-#         sp_attack = d(['spAttack'])
-#         sp_defense = d(['spDefense'])
-#         if name in mega_list:
-#             has_mega = (d['hasMega'])
-#         else:
-#             has_mega = False
-#         type_str = "/".join(types) if types else ""
-#         print(f"{d.get('id')}: {name} [{type_str}], HP={hp}, mega={has_mega}")
-#     if not flag:
-#         print("No results.")
 
 def query():
     print("Type 'help' for examples, 'quit' to exit.")
@@ -284,23 +253,13 @@ def query():
                     break
                 else:
                     print(f"Unknown command: {val}")
+                    print("Follow the rules of the grammar: \n"
+                          "'X =/is Y', 'X =/is Y and/or W =/is Z'")
                 continue
             # Handles simple tokens like name = charmander -> [name, =, charmander]
             if len(tokens) == 3:
-                print("hello world")
                 single_query(tokens[0], tokens[1], tokens[2])
                 continue
-
-            # if len(tokens) == 4:
-            #     # tokens[2] = tokens[2] + ' ' + tokens[3]
-            #     single_query(tokens[0], tokens[1], tokens[2])
-            #     continue
-
-
-            # Handles mega tokens
-            # if len(tokens) == 2:
-            #     mega_query(tokens[0], tokens[1])
-            #     continue
 
             # Handles compound and | or tokens like name = charmander or type = grass
             if len(tokens) == 7 and tokens[3] in ('and', 'or'):
@@ -333,38 +292,45 @@ def map_field_value(field, op, value):
         v = value.strip().title()
     else:
         v = value
+    try:
+        if f == 'name':
+            # firestore name
+            return ('name', op, v)
+        elif f == 'type':
+            # Types are held in an array
+            return ('type', 'array_contains', v)
+        # Enables searching for pokedex number by 'number' or 'id'
+        elif f in ('number', 'id'):
+            return ('id', op, v)
+        # Enables search by hp
+        elif f == 'hp':
+            # firestore hp
+            return ('hp', op, v)
+        elif f == 'attack':
+            # firestore attack
+            return ('Attack', op, v)
+        elif f == 'defense':
+            # firestore defense
+            return ('Defense', op, v)
+        elif f == 'speed':
+            # firestore speed
+            return ('Speed', op, v)
+        elif f == 'spAttack':
+            # firestore spAttack
+            return ('spAttack', op, v)
+        elif f == 'spDefense':
+            # firestore spDefense
+            return ('spDefense', op, v)
+        else:
+            print("Unknown field:", f)
+            print('Use "Name", "Number", "Type", "HP", "Defense",  \n',
+                  '"Attack", "Speed", "spAttack", or "spDefense" ')
 
-    if f == 'name':
-        # firestore name
-        return ('name', op, v)
-    if f == 'type':
-        # Types are held in an array
-        return ('type', 'array_contains', v)
-    # Enables searching for pokedex number by 'number' or 'id'
-    if f in ('number', 'id'):
-        return ('id', op, v)
-    # Enables search by hp
-    if f == 'hp':
-        # firestore hp
-        return ('hp', op, v)
-    if f == 'attack':
-        # firestore attack
-        return ('Attack', op, v)
-    if f == 'defense':
-        # firestore defense
-        return ('Defense', op, v)
-    if f == 'speed':
-        # firestore speed
-        return ('Speed', op, v)
-    if f == 'spAttack':
-        # firestore spAttack
-        return ('spAttack', op, v)
-    if f == 'spDefense':
-        # firestore spDefense
-        return ('spDefense', op, v)
+        # fallback
+        return (f, op, v)
 
-    # fallback
-    return (f, op, v)
+    except Exception as e:
+        print(f"Error: {e}")
 
 # Run program
 if __name__ == '__main__':
