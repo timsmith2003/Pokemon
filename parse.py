@@ -227,8 +227,29 @@ def query():
             if len(tokens) == 1:
                 val = tokens[0]
                 if val == 'help':
-                    print("Try: Name = charmander | Number = 10 | Type = fire | "
-                          "Name = charmander and Type = fire | Name = pikachu or Type = electric")
+                    print("Options you can query:\n" \
+                          "Name - Input name of pokemon\n" \
+                          "   Example: Name = Charizard\n" \
+                          "   Will return Charizard's Name, Number, and stats\n" \
+                          "Number - Input ID number of pokemon\n" \
+                          "   Example: Number = 6\n" \
+                          "   Will return Pokemon No. 6's Name, Number, and Types\n" \
+                          "Type - Input Pokemon's type\n" \
+                          "   Example: Type = Fire\n" \
+                          "   Will return all names, numbers and types of pokemon with that type\n" \
+                          "Stat - Input value corresponding to a pokemon's stat\n" \
+                          "   Example: HP > 90\n" \
+                          "   Example: Attack = 130\n" \
+                          "   Example: Defense = 165\n" \
+                          "   Example: SpAttack = 80\n" \
+                          "   Example: SpDefense < 85\n" \
+                          "   Example: Speed = 90\n" \
+                          "   Will return Pokemon Name, Number, and Types that match the stat you input\n" \
+                          "And/Or - Input multiple conditions to narrow query\n" \
+                          "   Example: Type = Fire and Type = Flying\n" \
+                          "   Example: Type = Bug or HP > 90\n" \
+                          "Help - Will show this help menu\n" \
+                          "Quit - Will end the program")
                     continue
                 elif val == 'quit':
                     print("See you later alligator. ")
