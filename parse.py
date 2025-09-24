@@ -1,4 +1,5 @@
 # parse.py
+
 from google.cloud.firestore_v1 import FieldFilter, Or, And
 from pyparsing import Word, alphas, nums, Literal, ParseException
 import admin
@@ -24,7 +25,9 @@ is_tet = text + _is + text
 is_tei = text + _is + integer
 greater_tei = text + greater_than + integer
 less_tei = text + less_than + integer
-tt = text + text
+tett = text + equals + text + text
+tistt = text + _is + text + text
+
 
 mega_list = ['Venusaur', 'Blastoise', 'Charizard', 'Gyarados', 'Pidgeot', 'Beedrill', 'Gengar', 'Alakazam',
              'Slowbro', 'Kangaskhan', 'Pinsir', 'Aerodactyl', 'Mewtwo']
@@ -110,6 +113,31 @@ def parse(line: str):
     except ParseException:
         pass
 
+    # Multi-word handle Mr Mime
+    try:
+        res = tett.parseString(line).asList()
+        # convert user input operator to firestore operator
+        if res[2] == 'mr':
+            res[2] = res[2] + ' ' + res[3].title()
+            res.pop()
+        res[1] = '=='
+        print(res)
+        return res
+
+    except ParseException:
+        pass
+
+    try:
+        res = tistt.parseString(line).asList()
+        # convert user input operator to firestore operator
+        if res[2] == 'mr':
+            res[2] = res[2] + ' ' + res[3].title()
+            res.pop()
+        res[1] = '=='
+        return res
+
+    except ParseException:
+        pass
 
     # try tet
     try:
@@ -125,12 +153,6 @@ def parse(line: str):
         res = is_tet.parseString(line).asList()
         # convert user input operator to firestore operator
         res[1] = '=='
-        return res
-    except ParseException:
-        pass
-
-    try:
-        res = tt.parseString(line).asList()
         return res
     except ParseException:
         pass
@@ -153,7 +175,7 @@ def single_query(field, op, value):
     q = pokemon_ref.where(filter=FieldFilter(path, operator, val)).get()
     for doc in q:
         p = Pokemon.from_dict(source=doc)
-        print(p.to_dict())
+        p.print_poke()
 
 def and_query(lhs, rhs):
     # Map each token to its corresponding firestore name
@@ -165,13 +187,13 @@ def and_query(lhs, rhs):
         for doc in q:
             p = Pokemon.from_dict(source=doc)
             if rval in p.get_types():
-                print(p.to_dict())
+                p.print_poke()
     else:
         q = pokemon_ref.where(filter=FieldFilter(lfield, lop, lval)) \
             .where(filter=FieldFilter(rfield, rop, rval)).get()
         for doc in q:
             p = Pokemon.from_dict(source=doc)
-            print(p.to_dict())
+            p.print_poke()
 
 
 def or_query(lhs, rhs):
@@ -185,35 +207,40 @@ def or_query(lhs, rhs):
     ])).get()
     for doc in q:
         p = Pokemon.from_dict(source=doc)
-        print(p.to_dict())
+        p.print_poke()
 
     
 
-def mega_query(field, value):
-    if field == 'mega':
-        field = 'hasMega'
-    q = pokemon_ref.where(filter = FieldFilter(field, value))
-    print_docs(q.stream())
+# def mega_query(field, value):
+#     if field == 'mega':
+#         field = 'hasMega'
+#     q = pokemon_ref.where(filter = FieldFilter(field, value))
+#     print_docs(q.stream())
 
 
 # Handles output of firestore data in the console
-def print_docs(docs):
-    flag = False
-    for doc in docs:
-        flag = True
-        # necessary firestore thing I don't really understand but is probably obvious if I took the time to read
-        d = doc.to_dict()
-        name = (d['name'])
-        types = d.get('type') or []
-        hp = (d['hp'])
-        if name in mega_list:
-            has_mega = (d['hasMega'])
-        else:
-            has_mega = False
-        type_str = "/".join(types) if types else ""
-        print(f"{d.get('id')}: {name} [{type_str}], HP={hp}, mega={has_mega}")
-    if not flag:
-        print("No results.")
+# def print_docs(docs):
+#     flag = False
+#     for doc in docs:
+#         flag = True
+#         # necessary firestore thing I don't really understand but is probably obvious if I took the time to read
+#         d = doc.to_dict()
+#         name = (d['name'])
+#         types = d.get('type') or []
+#         hp = (d['hp'])
+#         attack = d(['attack'])
+#         defense = (d['defense'])
+#         speed = (d['speed'])
+#         sp_attack = d(['spAttack'])
+#         sp_defense = d(['spDefense'])
+#         if name in mega_list:
+#             has_mega = (d['hasMega'])
+#         else:
+#             has_mega = False
+#         type_str = "/".join(types) if types else ""
+#         print(f"{d.get('id')}: {name} [{type_str}], HP={hp}, mega={has_mega}")
+#     if not flag:
+#         print("No results.")
 
 def query():
     print("Type 'help' for examples, 'quit' to exit.")
@@ -250,6 +277,7 @@ def query():
                           "   Example: Type = Bug or HP > 90\n" \
                           "Help - Will show this help menu\n" \
                           "Quit - Will end the program")
+
                     continue
                 elif val == 'quit':
                     print("See you later alligator. ")
@@ -259,13 +287,20 @@ def query():
                 continue
             # Handles simple tokens like name = charmander -> [name, =, charmander]
             if len(tokens) == 3:
+                print("hello world")
                 single_query(tokens[0], tokens[1], tokens[2])
                 continue
 
+            # if len(tokens) == 4:
+            #     # tokens[2] = tokens[2] + ' ' + tokens[3]
+            #     single_query(tokens[0], tokens[1], tokens[2])
+            #     continue
+
+
             # Handles mega tokens
-            if len(tokens) == 2:
-                mega_query(tokens[0], tokens[1])
-                continue
+            # if len(tokens) == 2:
+            #     mega_query(tokens[0], tokens[1])
+            #     continue
 
             # Handles compound and | or tokens like name = charmander or type = grass
             if len(tokens) == 7 and tokens[3] in ('and', 'or'):
@@ -291,7 +326,7 @@ def query():
 # Mapping for firestore
 def map_field_value(field, op, value):
     # Normalize field key
-    f = field.strip().lower()
+    f = field.strip()
 
     # Normalize string values
     if isinstance(value, str):
@@ -308,9 +343,25 @@ def map_field_value(field, op, value):
     # Enables searching for pokedex number by 'number' or 'id'
     if f in ('number', 'id'):
         return ('id', op, v)
+    # Enables search by hp
     if f == 'hp':
         # firestore hp
         return ('hp', op, v)
+    if f == 'attack':
+        # firestore attack
+        return ('Attack', op, v)
+    if f == 'defense':
+        # firestore defense
+        return ('Defense', op, v)
+    if f == 'speed':
+        # firestore speed
+        return ('Speed', op, v)
+    if f == 'spAttack':
+        # firestore spAttack
+        return ('spAttack', op, v)
+    if f == 'spDefense':
+        # firestore spDefense
+        return ('spDefense', op, v)
 
     # fallback
     return (f, op, v)
