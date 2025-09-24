@@ -57,6 +57,6 @@ class Pokemon:
               "Special Attack:" , self.spAttack,"\n"
               "Special Defense:" , self.spDefense,"\n"
               "Speed:" , self.speed,"\n"
-              "Has Mega:" , self.hasMega)
+              "Has Mega:" , self.hasMega,"\n")
     def get_types(self):
         return self.type
